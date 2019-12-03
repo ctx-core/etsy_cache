@@ -4,3 +4,4 @@ fetch.js
 lib.js
 s3.js
 store.js
+node_modules
