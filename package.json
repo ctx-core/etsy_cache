@@ -4,7 +4,7 @@
 	"main": "lib.js",
 	"module": "lib.js",
 	"types": "lib.ts",
-	"version": "3.1.48",
+	"version": "3.1.49",
 	"scripts": {
 		"start": "./bin/cache-etsy.js",
 		"build": "npm run clean && npm run compile",
@@ -14,11 +14,11 @@
 	},
 	"dependencies": {
 		"@aws-sdk/client-s3-node": "preview",
-		"@ctx-core/dom": "^5.10.39",
-		"@ctx-core/etsy": "^1.1.15",
-		"@ctx-core/fetch": "^6.1.70",
-		"@ctx-core/function": "^10.5.35",
-		"@ctx-core/sleep": "^3.1.10",
+		"@ctx-core/dom": "^5.10.40",
+		"@ctx-core/etsy": "^1.1.16",
+		"@ctx-core/fetch": "^6.1.71",
+		"@ctx-core/function": "^10.5.36",
+		"@ctx-core/sleep": "^3.1.11",
 		"esm": "^3.2.25",
 		"svelte": "^3.16.5"
 	},
