@@ -4,7 +4,7 @@
 	"main": "lib.js",
 	"module": "lib.js",
 	"types": "lib.ts",
-	"version": "3.2.0",
+	"version": "3.2.1",
 	"scripts": {
 		"start": "./bin/cache-etsy.js",
 		"build": "npm run clean && npm run compile",
