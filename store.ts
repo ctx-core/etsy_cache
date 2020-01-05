@@ -7,7 +7,7 @@ import {
 } from './fetch'
 import { _has__dom } from '@ctx-core/dom'
 export interface Writable__a1__listing__etsy__s3__loading extends Writable<falsy|any[]> {
-	reload__a1__listing__etsy__s3__loading:()=>void
+	reload__a1__listing__etsy__s3__loading:()=>Promise<void>
 }
 export const b__a1__listing__etsy__s3__loading = _b<Writable__a1__listing__etsy__s3__loading>('__a1__listing__etsy__s3__loading', ()=>{
 	const __a1__listing__etsy__s3__loading = writable(null)
@@ -27,7 +27,7 @@ export const {
 	reload__a1__listing__etsy__s3__loading,
 } = __a1__listing__etsy__s3__loading
 export interface Writable__reload__a1__images__listing__etsy__s3__loading extends Writable<falsy|string[]> {
-	reload__a1__images__listing__etsy__s3__loading:()=>void
+	reload__a1__images__listing__etsy__s3__loading:()=>Promise<void>
 }
 export const b__a1__images__listing__etsy__s3__loading = _b<Writable__reload__a1__images__listing__etsy__s3__loading>('__a1__images__listing__etsy__s3__loading', ()=>{
 	const __a1__images__listing__etsy__s3__loading = writable(null)
