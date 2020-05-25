@@ -1,10 +1,11 @@
 {
 	"name": "@ctx-core/etsy_cache",
+	"version": "3.2.49",
 	"description": "cache data for an etsy account",
+	"type": "module",
 	"main": "lib.js",
 	"module": "lib.js",
 	"types": "lib.ts",
-	"version": "3.2.49",
 	"scripts": {
 		"start": "./bin/cache-etsy.js",
 		"build": "npm run clean && npm run compile",
