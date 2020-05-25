@@ -25,6 +25,6 @@
 	"devDependencies": {
 		"typescript": "^3.9.3"
 	},
-	"gitHead": "8c232c4c984af076d61addac7b63b45283fa7466",
+	"gitHead": "e373e980007f2190e4236919f5b6a7e82156c100",
 	"homepage": "https://github.com/ctx-core/etsy_cache#readme"
 }
