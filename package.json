@@ -20,7 +20,7 @@
 		"@ctx-core/function": "^13.0.8",
 		"@ctx-core/sleep": "^3.1.22",
 		"esm": "^3.2.25",
-		"svelte": "^3.23.2"
+		"svelte": "^3.24.0"
 	},
 	"devDependencies": {
 		"typescript": "^3.9.6"
