@@ -23,7 +23,7 @@
 		"svelte": "^3.24.1"
 	},
 	"devDependencies": {
-		"typescript": "^3.9.7"
+		"typescript": "^4.0.2"
 	},
 	"gitHead": "04149b1a10dc8322a7f208975d3444966a5ebbee",
 	"homepage": "https://github.com/ctx-core/etsy_cache#readme"
