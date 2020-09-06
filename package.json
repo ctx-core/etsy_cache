@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/etsy_cache",
-	"version": "3.2.125",
+	"version": "3.2.126",
 	"description": "cache data for an etsy account",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -16,7 +16,7 @@
 		"@aws-sdk/client-s3-node": "preview",
 		"@ctx-core/dom": "^6.0.27",
 		"@ctx-core/etsy": "^1.1.62",
-		"@ctx-core/fetch": "^6.1.194",
+		"@ctx-core/fetch": "^6.1.195",
 		"@ctx-core/function": "^13.2.4",
 		"@ctx-core/sleep": "^4.0.0",
 		"esm": "^3.2.25",
