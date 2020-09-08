@@ -18,7 +18,7 @@
 		"@ctx-core/etsy": "^1.1.65",
 		"@ctx-core/fetch": "^6.1.198",
 		"@ctx-core/function": "^14.0.1",
-		"@ctx-core/sleep": "^4.0.0",
+		"@ctx-core/sleep": "^4.0.1",
 		"esm": "^3.2.25",
 		"svelte": "^3.24.1"
 	},
