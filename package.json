@@ -10,7 +10,8 @@
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
 		"compile": "tsc -b",
-		"prepublishOnly": "npm run compile"
+		"prepublishOnly": "npm run compile",
+		"exec": "$@"
 	},
 	"dependencies": {
 		"@aws-sdk/client-s3-node": "preview",
@@ -25,6 +26,6 @@
 	"devDependencies": {
 		"typescript": "^4.0.2"
 	},
-	"gitHead": "13fc8db3f9328c170f2a111520d1970dcb35de50",
+	"gitHead": "984b72df5fc2c722541f5a9eaf3123ccc8028f57",
 	"homepage": "https://github.com/ctx-core/etsy_cache#readme"
 }
