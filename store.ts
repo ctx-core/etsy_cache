@@ -1,16 +1,16 @@
 import { writable, derived, Writable } from 'svelte/store'
 import { _b, assign } from '@ctx-core/object'
-import { _andand, falsy } from '@ctx-core/function'
+import { _andand, maybe } from '@ctx-core/function'
 import {
 	_a1__listing__etsy__s3,
 	_a1__images__listing__etsy__s3,
 } from './fetch'
 import { _has__dom } from '@ctx-core/dom'
-export interface Writable__a1__listing__etsy__s3__loading extends Writable<falsy|any[]> {
+export interface type__a1__listing__etsy__s3__loading<I = unknown> extends Writable<maybe<I[]>> {
 	reload__a1__listing__etsy__s3__loading:()=>Promise<void>
 }
-export const b__a1__listing__etsy__s3__loading = _b<Writable__a1__listing__etsy__s3__loading>('__a1__listing__etsy__s3__loading', ()=>{
-	const __a1__listing__etsy__s3__loading = writable(null)
+export const b__a1__listing__etsy__s3__loading = _b<type__a1__listing__etsy__s3__loading>('__a1__listing__etsy__s3__loading', ()=>{
+	const __a1__listing__etsy__s3__loading = writable(null) as type__a1__listing__etsy__s3__loading
 	if (_has__dom()) {
 		reload__a1__listing__etsy__s3__loading()
 	}
@@ -26,11 +26,11 @@ export const __a1__listing__etsy__s3__loading = b__a1__listing__etsy__s3__loadin
 export const {
 	reload__a1__listing__etsy__s3__loading,
 } = __a1__listing__etsy__s3__loading
-export interface Writable__reload__a1__images__listing__etsy__s3__loading extends Writable<falsy|string[]> {
+export interface type__reload__a1__images__listing__etsy__s3__loading extends Writable<maybe<string[]>> {
 	reload__a1__images__listing__etsy__s3__loading:()=>Promise<void>
 }
-export const b__a1__images__listing__etsy__s3__loading = _b<Writable__reload__a1__images__listing__etsy__s3__loading>('__a1__images__listing__etsy__s3__loading', ()=>{
-	const __a1__images__listing__etsy__s3__loading = writable(null)
+export const b__a1__images__listing__etsy__s3__loading = _b<type__reload__a1__images__listing__etsy__s3__loading>('__a1__images__listing__etsy__s3__loading', ()=>{
+	const __a1__images__listing__etsy__s3__loading = writable(null) as type__reload__a1__images__listing__etsy__s3__loading
 	if (_has__dom()) {
 		reload__a1__images__listing__etsy__s3__loading()
 	}
