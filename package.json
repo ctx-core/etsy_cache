@@ -1,31 +1,31 @@
 {
-  "name": "@ctx-core/etsy_cache",
-  "version": "5.0.8",
-  "description": "cache data for an etsy account",
-  "homepage": "https://github.com/ctx-core/etsy_cache#readme",
-  "main": "./index.js",
-  "module": "./index.js",
-  "types": "./index.ts",
-  "scripts": {
-    "build": "npm run clean && npm run compile",
-    "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "./node_modules/.bin/tsc -b",
-    "exec": "$@",
-    "prepublishOnly": "npm run compile",
-    "start": "./bin/cache-etsy.js"
-  },
-  "dependencies": {
-    "@aws-sdk/client-s3-node": "preview",
-    "@ctx-core/dom": "workspace:^7.0.4",
-    "@ctx-core/etsy": "workspace:^2.0.3",
-    "@ctx-core/fetch": "workspace:^7.0.8",
-    "@ctx-core/function": "workspace:^16.0.0",
-    "@ctx-core/object": "workspace:^12.0.2",
-    "@ctx-core/sleep": "workspace:^5.0.0",
-    "esm": "^3.2.25",
-    "svelte": "~3.25.1"
-  },
-  "devDependencies": {
-    "typescript": "^4.0.3"
-  }
+	"name": "@ctx-core/etsy_cache",
+	"version": "5.0.8",
+	"description": "cache data for an etsy account",
+	"homepage": "https://github.com/ctx-core/etsy_cache#readme",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
+	"scripts": {
+		"build": "npm run clean && npm run compile",
+		"clean": "rm -f tsconfig.tsbuildinfo",
+		"compile": "./node_modules/.bin/tsc -b",
+		"exec": "$@",
+		"prepublishOnly": "npm run compile",
+		"start": "./bin/cache-etsy.js"
+	},
+	"dependencies": {
+		"@aws-sdk/client-s3-node": "preview",
+		"@ctx-core/dom": "workspace:^7.0.4",
+		"@ctx-core/etsy": "workspace:^2.0.3",
+		"@ctx-core/fetch": "workspace:^7.0.8",
+		"@ctx-core/function": "workspace:^16.0.0",
+		"@ctx-core/object": "workspace:^12.0.2",
+		"@ctx-core/sleep": "workspace:^5.0.0",
+		"esm": "^3.2.25",
+		"svelte": "~3.25.1"
+	},
+	"devDependencies": {
+		"typescript": "^4.0.3"
+	}
 }
