@@ -1,5 +1,12 @@
 # @ctx-core/etsy_cache
 
+## 5.0.28
+
+### Patch Changes
+
+- @ctx-core/dom@7.0.22
+- @ctx-core/fetch@7.0.28
+
 ## 5.0.27
 
 ### Patch Changes
