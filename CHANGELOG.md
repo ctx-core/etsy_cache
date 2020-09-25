@@ -1,5 +1,13 @@
 # @ctx-core/etsy_cache
 
+## 5.0.38
+
+### Patch Changes
+
+- svelte: 3.27.0 -> 3.28.0
+  - @ctx-core/fetch@7.0.38
+  - @ctx-core/dom@7.0.32
+
 ## 5.0.37
 
 ### Patch Changes
