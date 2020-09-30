@@ -1,5 +1,16 @@
 # @ctx-core/etsy_cache
 
+## 5.0.51
+
+### Patch Changes
+
+- fix: tsc build issues
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/store@23.0.3
+  - @ctx-core/dom@7.0.46
+  - @ctx-core/fetch@7.0.51
+
 ## 5.0.50
 
 ### Patch Changes
