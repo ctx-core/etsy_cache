@@ -12,9 +12,15 @@ export interface type__reload__a1__images__listing__etsy__s3__loading extends Wr
 export declare const b__a1__images__listing__etsy__s3__loading: (ctx?: object | undefined, opts?: import("@ctx-core/object")._be_opts_type | undefined) => type__reload__a1__images__listing__etsy__s3__loading;
 export declare const __a1__images__listing__etsy__s3__loading: type__reload__a1__images__listing__etsy__s3__loading;
 export declare const reload__a1__images__listing__etsy__s3__loading: () => Promise<void>;
-export declare const b__ctx__listing__etsy: (ctx?: object | undefined, opts?: import("@ctx-core/object")._be_opts_type | undefined) => any;
-export declare const __ctx__listing__etsy: any;
-export declare const b__etsy_listing_a1__s3: (ctx?: object | undefined, opts?: import("@ctx-core/object")._be_opts_type | undefined) => any;
-export declare const __etsy_listing_a1__s3: any;
-export declare const b__a1__images__listing__etsy__s3: (ctx?: object | undefined, opts?: import("@ctx-core/object")._be_opts_type | undefined) => any;
-export declare const __a1__images__listing__etsy__s3: any;
+export declare const b__ctx__listing__etsy: (ctx?: object | undefined, opts?: import("@ctx-core/object")._be_opts_type | undefined) => import("@ctx-core/store").Readable<false | "" | 0 | {
+    etsy_listing_a1__s3: number | unknown[];
+    a1__images__listing__etsy__s3: number | string[];
+} | null | undefined>;
+export declare const __ctx__listing__etsy: import("@ctx-core/store").Readable<false | "" | 0 | {
+    etsy_listing_a1__s3: number | unknown[];
+    a1__images__listing__etsy__s3: number | string[];
+} | null | undefined>;
+export declare const b__etsy_listing_a1__s3: (ctx?: object | undefined, opts?: import("@ctx-core/object")._be_opts_type | undefined) => import("@ctx-core/store").Readable<void | import("@ctx-core/store").Unsubscriber>;
+export declare const __etsy_listing_a1__s3: import("@ctx-core/store").Readable<void | import("@ctx-core/store").Unsubscriber>;
+export declare const b__a1__images__listing__etsy__s3: (ctx?: object | undefined, opts?: import("@ctx-core/object")._be_opts_type | undefined) => import("@ctx-core/store").Readable<void | import("@ctx-core/store").Unsubscriber>;
+export declare const __a1__images__listing__etsy__s3: import("@ctx-core/store").Readable<void | import("@ctx-core/store").Unsubscriber>;
