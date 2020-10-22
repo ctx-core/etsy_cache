@@ -1,5 +1,11 @@
 # @ctx-core/etsy_cache
 
+## 5.0.61
+
+### Patch Changes
+
+- @ctx-core/fetch@7.0.60
+
 ## 5.0.60
 
 ### Patch Changes
