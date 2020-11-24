@@ -1,5 +1,15 @@
 # @ctx-core/etsy_cache
 
+## 5.0.76
+
+### Patch Changes
+
+- svelte: 3.29.7 -> 3.30.0
+- Updated dependencies [undefined]
+  - @ctx-core/store@23.0.15
+  - @ctx-core/fetch@7.0.74
+  - @ctx-core/dom@7.1.10
+
 ## 5.0.75
 
 ### Patch Changes
