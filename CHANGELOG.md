@@ -1,5 +1,20 @@
 # @ctx-core/etsy_cache
 
+## 5.1.0
+
+### Minor Changes
+
+- interface instead of type
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@13.1.0
+  - @ctx-core/store@23.1.0
+  - @ctx-core/etsy@2.0.20
+  - @ctx-core/fetch@7.0.75
+  - @ctx-core/dom@7.1.11
+
 ## 5.0.76
 
 ### Patch Changes
