@@ -1,3 +1,3 @@
-export declare type etsy_listing_type = {
+export interface etsy_listing_type {
     listing_id: string;
-};
+}

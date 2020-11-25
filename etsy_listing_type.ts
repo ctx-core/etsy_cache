@@ -1,3 +1,3 @@
-export type etsy_listing_type = {
-	listing_id: string
+export interface etsy_listing_type {
+	listing_id:string
 }
