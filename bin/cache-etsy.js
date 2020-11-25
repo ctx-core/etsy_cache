@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 require = require('esm')(module)
-const { put__cache__etsy } = require('../s3')
-put__cache__etsy()
+const { put_etsy_cache } = require('../s3')
+put_etsy_cache()

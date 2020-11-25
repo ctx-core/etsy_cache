@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/etsy_cache",
-	"version": "5.1.1",
+	"version": "5.2.0",
 	"description": "cache data for an etsy account",
 	"homepage": "https://github.com/ctx-core/etsy_cache#readme",
 	"main": "./index.js",
@@ -16,13 +16,13 @@
 	},
 	"dependencies": {
 		"@aws-sdk/client-s3-node": "preview",
-		"@ctx-core/dom": "workspace:^7.1.12",
-		"@ctx-core/etsy": "workspace:^2.0.21",
-		"@ctx-core/fetch": "workspace:^7.0.76",
+		"@ctx-core/dom": "workspace:^7.1.13",
+		"@ctx-core/etsy": "workspace:^2.0.22",
+		"@ctx-core/fetch": "workspace:^7.0.77",
 		"@ctx-core/function": "workspace:^16.1.3",
-		"@ctx-core/object": "workspace:^14.0.0",
+		"@ctx-core/object": "workspace:^15.0.0",
 		"@ctx-core/sleep": "workspace:^5.0.3",
-		"@ctx-core/store": "workspace:^23.1.1",
+		"@ctx-core/store": "workspace:^23.1.2",
 		"esm": "^3.2.25",
 		"svelte": "3.30.0"
 	},
