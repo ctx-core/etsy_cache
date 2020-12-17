@@ -1,5 +1,20 @@
 # @ctx-core/etsy_cache
 
+## 5.2.11
+
+### Patch Changes
+
+- interface instead of type: put_etsy_listing_a1_opts_type,put_etsy_listing_images_a1_opts_type
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/object@15.0.4
+  - @ctx-core/function@16.1.5
+  - @ctx-core/store@23.1.8
+  - @ctx-core/dom@7.1.19
+  - @ctx-core/fetch@7.0.88
+  - @ctx-core/etsy@2.0.27
+
 ## 5.2.10
 
 ### Patch Changes
