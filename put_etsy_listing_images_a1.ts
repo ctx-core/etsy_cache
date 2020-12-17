@@ -16,7 +16,7 @@ export async function put_etsy_listing_images_a1(
 	})
 	return await s3.send(PutObjectCommand_obj)
 }
-export type put_etsy_listing_images_a1_opts_type = {
+export interface put_etsy_listing_images_a1_opts_type {
 	region?:string
 	Bucket?:string
 	ETSY_LISTING_IMAGES_A1_KEY?:string
