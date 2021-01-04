@@ -1,1 +1,1 @@
-export declare const s3_etsy_listing_a1_b: (ctx: object, opts?: import("@ctx-core/object")._be_opts_type | undefined) => import("@ctx-core/store").Readable<void | import("@ctx-core/store").Unsubscriber>;
+export declare const s3_etsy_listing_a1_b: import("@ctx-core/object").be_type<import("@ctx-core/store").Readable<void | import("@ctx-core/store").Unsubscriber>, object>;
