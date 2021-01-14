@@ -1,5 +1,4 @@
-import { S3Client } from '@aws-sdk/client-s3-node/S3Client'
-import { PutObjectCommand } from '@aws-sdk/client-s3-node/commands/PutObjectCommand'
+import { PutObjectCommand, S3Client } from '@aws-sdk/client-s3'
 export async function put_etsy_listing_images_a1(
 	etsy_listing_images_a1, opts:put_etsy_listing_images_a1_opts_type = {}
 ) {
