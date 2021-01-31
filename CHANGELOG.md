@@ -1,5 +1,21 @@
 # @ctx-core/etsy_cache
 
+## 6.0.0
+
+### Major Changes
+
+- src directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.0.0
+  - @ctx-core/fetch@8.0.0
+  - @ctx-core/function@17.0.0
+  - @ctx-core/object@17.0.0
+  - @ctx-core/sleep@6.0.0
+  - @ctx-core/store@24.0.0
+
 ## 5.2.58
 
 ### Patch Changes
