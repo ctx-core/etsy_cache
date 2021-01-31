@@ -1,5 +1,11 @@
 # @ctx-core/etsy_cache
 
+## 6.0.1
+
+### Patch Changes
+
+- fix: remove @ctx-core/etsy dependency
+
 ## 6.0.0
 
 ### Major Changes
