@@ -1,4 +1,4 @@
-@mixin Store__Etsy($root: '.Store__Etsy', $min-width__multi_column: 1215px) {
+@mixin Etsy_Store($root: '.Etsy_Store', $min-width__multi_column: 1215px) {
 	:global(#{$root}) {
 		display: flex;
 		justify-content: center;

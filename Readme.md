@@ -2,7 +2,7 @@
 
 Caches the listings in a Etsy Store to S3.
 
-Also contains a `Store__Etsy` component to browse through store & to purchase a listing through Etsy.
+Also contains a `Etsy_Store` component to browse through store & to purchase a listing through Etsy.
 
 ## Usage
 
@@ -13,19 +13,19 @@ npm install @ctx-core/etsy_cache
 cache-etsy.js
 ```
 
-### Store__Etsy
+### Etsy_Store
 
 ```html
 <script>
-	import Store__Etsy from '@ctx-core/etsy_cache/Store__Etsy.svelte'
+	import Etsy_Store from '@ctx-core/etsy_cache/Etsy_Store.svelte'
 </script>
 
-<Store__Etsy></Store__Etsy>
+<Etsy_Store></Etsy_Store>
 
 <style type="text/scss">
-	@import "~@ctx-core/etsy_cache/Store__Etsy";
+	@import "~@ctx-core/etsy_cache/Etsy_Store";
 	@import "your-css/variables";
-	@include Store__Etsy($min-width__multi_column: $width__desktop-max);
+	@include Etsy_Store($min-width__multi_column: $width__desktop-max);
 </style>
 ```
 
