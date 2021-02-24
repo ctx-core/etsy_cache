@@ -1,11 +1,11 @@
 import type { maybe } from '@ctx-core/function'
 import { _b, assign } from '@ctx-core/object'
-import { _has__dom } from '@ctx-core/dom'
+import { _has_dom } from '@ctx-core/dom'
 import { writable, Writable } from '@ctx-core/store'
 import { _s3_etsy_listing_images_a1 } from './_s3_etsy_listing_images_a1'
 export const loading_s3_etsy_listing_images_a1_b = _b<type__reload_loading_s3_etsy_listing_images_a1>('loading_s3_etsy_listing_images_a1', ()=>{
 	const loading_s3_etsy_listing_images_a1 = writable(null) as type__reload_loading_s3_etsy_listing_images_a1
-	if (_has__dom()) {
+	if (_has_dom()) {
 		reload_loading_s3_etsy_listing_images_a1().then()
 	}
 	return assign(loading_s3_etsy_listing_images_a1, {
