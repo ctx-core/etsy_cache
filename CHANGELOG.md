@@ -1,5 +1,16 @@
 # @ctx-core/etsy_cache
 
+## 6.1.31
+
+### Patch Changes
+
+- svelte: 3.33.0 -> 3.34.0
+- @aws-sdk/client-s3: ^3.6.1 -> ^3.7.0
+- Updated dependencies [undefined]
+  - @ctx-core/store@24.1.3
+  - @ctx-core/dom@8.2.2
+  - @ctx-core/fetch@8.0.32
+
 ## 6.1.30
 
 ### Patch Changes
