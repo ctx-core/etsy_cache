@@ -19,7 +19,7 @@
 		"@ctx-core/dom": "workspace:^8.2.17",
 		"@ctx-core/fetch": "workspace:^8.0.51",
 		"@ctx-core/function": "workspace:^17.4.5",
-		"@ctx-core/object": "workspace:^17.5.2",
+		"@ctx-core/object": "workspace:^17.5.3",
 		"@ctx-core/sleep": "workspace:^6.0.9",
 		"@ctx-core/store": "workspace:^24.1.18",
 		"esm": "^3.2.25",
