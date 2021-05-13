@@ -21,7 +21,7 @@
 		"@ctx-core/function": "workspace:^17.8.5",
 		"@ctx-core/object": "workspace:^17.5.27",
 		"@ctx-core/sleep": "workspace:^6.0.11",
-		"@ctx-core/store": "workspace:^24.7.23",
+		"@ctx-core/store": "workspace:^24.7.24",
 		"esm": "^3.2.25",
 		"svelte": "3.38.2"
 	},
