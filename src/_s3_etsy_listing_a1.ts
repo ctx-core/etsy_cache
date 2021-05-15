@@ -1,5 +1,7 @@
-import { fetch_s3_etsy_listing_a1 } from './fetch_s3_etsy_listing_a1'
-export async function _s3_etsy_listing_a1(opts = {}) {
-	const response = await fetch_s3_etsy_listing_a1(opts)
+import { fetch_s3_etsy_listing_a1, fetch_s3_etsy_listing_a1_params_I } from './fetch_s3_etsy_listing_a1'
+export async function _s3_etsy_listing_a1(
+	params:fetch_s3_etsy_listing_a1_params_I = {}
+) {
+	const response = await fetch_s3_etsy_listing_a1(params)
 	return response.json()
 }
