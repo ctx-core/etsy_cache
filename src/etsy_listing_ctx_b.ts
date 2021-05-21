@@ -22,15 +22,15 @@ export const etsy_listing_ctx_b = _b<etsy_listing_ctx_Ctx, typeof key>(key, ctx=
 			? {
 				$loading_s3_etsy_listing_a1,
 				$loading_s3_etsy_listing_image_a1,
-			} as etsy_listing_ctx_I
+			} as etsy_listing_Ctx
 			: undefined
 	))
-export interface etsy_listing_ctx_ctx_I extends loading_s3_etsy_listing_a1_Ctx, loading_s3_etsy_listing_image_a1_Ctx {
+export interface etsy_listing_ctx_Ctx extends loading_s3_etsy_listing_a1_Ctx, loading_s3_etsy_listing_image_a1_Ctx {
 }
-export interface etsy_listing_ctx_I {
+export interface etsy_listing_Ctx {
 	$loading_s3_etsy_listing_a1?:boolean[]
 	$loading_s3_etsy_listing_image_a1?:boolean[]
 	$s3_etsy_listing_a1?:IListing[],
 	$s3_etsy_listing_image_a1?:IListingImage[],
 }
-export interface etsy_listing_ctx_T extends Readable$<etsy_listing_ctx_I|undefined> {}
+export interface etsy_listing_ctx_T extends Readable$<etsy_listing_Ctx|undefined> {}
