@@ -1,8 +1,8 @@
 import type { IListing } from 'etsy-ts/api';
+import type { IListingImage } from 'etsy-ts/api/ListingImage';
 import { Readable$ } from '@ctx-core/store';
 import { loading_s3_etsy_listing_a1_Ctx } from './loading_s3_etsy_listing_a1_b';
 import { loading_s3_etsy_listing_image_a1_Ctx } from './loading_s3_etsy_listing_image_a1_b';
-import type { IListingImage } from 'etsy-ts/api/ListingImage';
 export interface etsy_listing_ctx_Ctx extends loading_s3_etsy_listing_a1_Ctx, loading_s3_etsy_listing_image_a1_Ctx {
     etsy_listing_ctx?: etsy_listing_ctx_T;
 }
