@@ -6,7 +6,7 @@ import { loading_s3_etsy_listing_image_a1_Ctx } from './loading_s3_etsy_listing_
 export interface etsy_listing_ctx_Ctx extends loading_s3_etsy_listing_a1_Ctx, loading_s3_etsy_listing_image_a1_Ctx {
     etsy_listing_ctx?: etsy_listing_ctx_T;
 }
-export declare const etsy_listing_ctx_b: import("@ctx-core/object").Be<etsy_listing_ctx_Ctx, "etsy_listing_ctx">;
+export declare const etsy_listing_ctx_b: import("@ctx-core/object").Be<etsy_listing_ctx_Ctx, "etsy_listing_ctx", etsy_listing_ctx_T>;
 export interface etsy_listing_ctx_Ctx extends loading_s3_etsy_listing_a1_Ctx, loading_s3_etsy_listing_image_a1_Ctx {
 }
 export interface etsy_listing_Ctx {
