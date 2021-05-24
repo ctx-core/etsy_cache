@@ -1,5 +1,18 @@
 # @ctx-core/etsy_cache
 
+## 6.3.3
+
+### Patch Changes
+
+- types: ./src/index.d.ts: address error TS2742 issue
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.3.10
+  - @ctx-core/fetch@8.1.11
+  - @ctx-core/function@17.9.3
+  - @ctx-core/object@18.0.6
+  - @ctx-core/sleep@6.1.3
+  - @ctx-core/store@24.8.10
+
 ## 6.3.2
 
 ### Patch Changes
