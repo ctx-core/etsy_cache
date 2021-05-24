@@ -1,5 +1,21 @@
 # @ctx-core/etsy_cache
 
+## 6.4.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.4.0
+  - @ctx-core/fetch@8.2.0
+  - @ctx-core/function@17.10.0
+  - @ctx-core/object@18.1.0
+  - @ctx-core/sleep@6.2.0
+  - @ctx-core/store@24.9.0
+
 ## 6.3.3
 
 ### Patch Changes
