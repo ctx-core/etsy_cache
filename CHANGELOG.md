@@ -1,5 +1,17 @@
 # @ctx-core/etsy_cache
 
+## 6.5.5
+
+### Patch Changes
+
+- update dependencies
+
+## 6.5.4
+
+### Patch Changes
+
+- update dependencies
+
 ## 6.5.3
 
 ### Patch Changes
