@@ -1,1 +1,1 @@
-/home/brian/work/ctx-core/ctx-core/packages/etsy_cache/src/./ui/Etsy_Store.svelte
+../../src/ui/Etsy_Store.svelte
