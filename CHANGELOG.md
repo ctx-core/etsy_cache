@@ -1,5 +1,11 @@
 # @ctx-core/etsy_cache
 
+## 6.5.8
+
+### Patch Changes
+
+- fix: \_h_b_h: return value
+
 ## 6.5.7
 
 ### Patch Changes
