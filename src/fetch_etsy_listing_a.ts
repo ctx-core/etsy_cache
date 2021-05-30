@@ -1,5 +1,5 @@
 import { fetch } from '@ctx-core/fetch'
-export async function fetch_etsy_listing_a1(
+export async function fetch_etsy_listing_a(
 	params:fetch_etsy_listing_a1_params_I = {}
 ) {
 	const {
@@ -11,4 +11,7 @@ export async function fetch_etsy_listing_a1(
 export interface fetch_etsy_listing_a1_params_I {
 	ETSY_API_KEY?:string
 	ETSY_STORE_ID?:string
+}
+export {
+	fetch_etsy_listing_a as fetch_etsy_listing_a1,
 }

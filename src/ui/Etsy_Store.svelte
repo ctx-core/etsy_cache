@@ -1,7 +1,6 @@
 <script>
-import {
-	s3_etsy_listing_a1, s3_etsy_listing_image_a1,
-} from '../src'
+import { s3_etsy_listing_a1 } from '../s3_etsy_listing_a1'
+import { s3_etsy_listing_image_a1 } from '../s3_etsy_listing_image_a1'
 import {
 	_src__img, _title, _price, _description, _url,
 } from '@ctx-core/etsy'
