@@ -1,5 +1,13 @@
 # @ctx-core/etsy_cache
 
+## 7.0.4
+
+### Patch Changes
+
+- _b->be_
+- Updated dependencies [undefined]
+  - @ctx-core/object@19.0.2
+
 ## 7.0.3
 
 ### Patch Changes
@@ -1813,7 +1821,7 @@
 
 ### Minor Changes
 
-- \_b: required ctx argument & generic type updates
+- \be\_: required ctx argument & generic type updates
 - Extract separate modules
 
 ### Patch Changes
