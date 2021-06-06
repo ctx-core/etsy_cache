@@ -1,5 +1,19 @@
 # @ctx-core/etsy_cache
 
+## 7.0.17
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/dom@9.0.9
+  - @ctx-core/fetch@9.0.5
+  - @ctx-core/function@18.1.2
+  - @ctx-core/object@19.1.2
+  - @ctx-core/sleep@6.3.2
+  - @ctx-core/store@25.1.12
+  - @ctx-core/ctx-core-package-tools@7.0.13
+
 ## 7.0.16
 
 ### Patch Changes
