@@ -1,5 +1,11 @@
 # @ctx-core/etsy_cache
 
+## 7.0.23
+
+### Patch Changes
+
+- fix: B: inferred type issue
+
 ## 7.0.22
 
 ### Patch Changes
