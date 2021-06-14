@@ -8,5 +8,5 @@ export const s3_etsy_listing_image_a$_b:B<etsy_cache_Ctx, typeof key> = be_(key,
 	derived$(
 		etsy_listing_ctx$_b(ctx),
 		etsy_listing_ctx=>
-			etsy_listing_ctx?.s3_etsy_listing_image_a1))
+			etsy_listing_ctx?.s3_etsy_listing_image_a))
 export type s3_etsy_listing_image_a$_T = Readable$<IListingImage[]|undefined>

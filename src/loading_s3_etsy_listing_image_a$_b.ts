@@ -15,10 +15,10 @@ export const loading_s3_etsy_listing_image_a$_b:B<etsy_cache_Ctx, typeof key> = 
 			reload_loading_s3_etsy_listing_image_a,
 		}) as loading_s3_etsy_listing_image_a$_T
 		async function reload_loading_s3_etsy_listing_image_a() {
-			const s3_etsy_listing_image_a1 =
+			const s3_etsy_listing_image_a =
 				await s3_etsy_listing_image_a_()
 			loading_s3_etsy_listing_image_a$.set(
-				s3_etsy_listing_image_a1)
+				s3_etsy_listing_image_a)
 		}
 	})
 export interface loading_s3_etsy_listing_image_a$_T extends Writable$<boolean[]|undefined> {

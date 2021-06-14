@@ -1,1 +1,0 @@
-../../src/ui/Etsy_Store.svelte

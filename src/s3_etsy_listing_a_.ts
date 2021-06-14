@@ -6,5 +6,5 @@ export async function s3_etsy_listing_a_(
 	return response.json()
 }
 export {
-	s3_etsy_listing_a_ as _s3_etsy_listing_a1,
+	s3_etsy_listing_a_ as _s3_etsy_listing_a,
 }

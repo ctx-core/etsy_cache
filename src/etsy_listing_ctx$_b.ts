@@ -23,7 +23,7 @@ export const etsy_listing_ctx$_b:B<etsy_cache_Ctx, typeof key> = be_(key, ctx=>
 export interface etsy_listing_ctx_T {
 	loading_s3_etsy_listing_a?:boolean[]
 	loading_s3_etsy_listing_image_a?:boolean[]
-	s3_etsy_listing_a1?:IListing[],
-	s3_etsy_listing_image_a1?:IListingImage[],
+	s3_etsy_listing_a?:IListing[],
+	s3_etsy_listing_image_a?:IListingImage[],
 }
 export interface etsy_listing_ctx$_T extends Readable$<etsy_listing_ctx_T|undefined> {}

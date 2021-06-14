@@ -1,6 +1,6 @@
 import { fetch } from '@ctx-core/fetch'
 export async function fetch_s3_etsy_listing_image_a(
-	params:fetch_s3_etsy_listing_image_a1_params_I = {}
+	params:fetch_s3_etsy_listing_image_a_params_I = {}
 ) {
 	const {
 		S3_BUCKET = process.env.S3_BUCKET
@@ -13,7 +13,7 @@ export async function fetch_s3_etsy_listing_image_a(
 		{ mode: 'cors' }
 	)
 }
-export interface fetch_s3_etsy_listing_image_a1_params_I {
+export interface fetch_s3_etsy_listing_image_a_params_I {
 	S3_BUCKET?:string
 	ETSY_LISTING_IMAGES_A_KEY?:string
 }

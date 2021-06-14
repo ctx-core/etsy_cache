@@ -24,5 +24,5 @@ export interface loading_s3_etsy_listing_a$_T extends Writable$<boolean[]|undefi
 	reload_loading_s3_etsy_listing_a:()=>Promise<void>
 }
 export {
-	loading_s3_etsy_listing_a$_b as loading_s3_etsy_listing_a1_b,
+	loading_s3_etsy_listing_a$_b as loading_s3_etsy_listing_a_b,
 }
