@@ -17,13 +17,13 @@
 	},
 	"dependencies": {
 		"@aws-sdk/client-s3": "^3.18.0",
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.0",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.1",
 		"@ctx-core/dom": "workspace:^10.0.0",
 		"@ctx-core/fetch": "workspace:^10.0.0",
 		"@ctx-core/function": "workspace:^19.0.0",
 		"@ctx-core/object": "workspace:^20.0.0",
 		"@ctx-core/sleep": "workspace:^7.0.0",
-		"@ctx-core/store": "workspace:^26.0.0",
+		"@ctx-core/store": "workspace:^26.0.1",
 		"esm": "^3.2.25",
 		"svelte": "3.38.2"
 	},
