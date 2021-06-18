@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/etsy_cache",
-	"version": "8.0.6",
+	"version": "8.0.7",
 	"description": "cache data for an etsy account",
 	"homepage": "https://github.com/ctx-core/etsy_cache#readme",
 	"main": "./src/index.js",
@@ -17,19 +17,19 @@
 	},
 	"dependencies": {
 		"@aws-sdk/client-s3": "^3.18.0",
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.3",
-		"@ctx-core/dom": "workspace:^10.0.2",
-		"@ctx-core/fetch": "workspace:^10.0.3",
-		"@ctx-core/function": "workspace:^19.1.1",
-		"@ctx-core/object": "workspace:^20.0.2",
-		"@ctx-core/sleep": "workspace:^7.0.1",
-		"@ctx-core/store": "workspace:^26.0.3",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.4",
+		"@ctx-core/dom": "workspace:^10.0.3",
+		"@ctx-core/fetch": "workspace:^10.0.4",
+		"@ctx-core/function": "workspace:^19.1.2",
+		"@ctx-core/object": "workspace:^20.0.3",
+		"@ctx-core/sleep": "workspace:^7.0.2",
+		"@ctx-core/store": "workspace:^26.0.4",
 		"esm": "^3.2.25",
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
-		"@ctx-core/dev-tools": "workspace:^6.0.2",
+		"@ctx-core/dev-tools": "workspace:^6.0.3",
 		"etsy-ts": "^3.3.3",
-		"typescript": "^4.3.3"
+		"typescript": "^4.3.4"
 	}
 }
