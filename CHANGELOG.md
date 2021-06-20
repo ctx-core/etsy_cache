@@ -1,5 +1,18 @@
 # @ctx-core/etsy_cache
 
+## 8.0.12
+
+### Patch Changes
+
+- npm run prepare instead of npm run prepublishOnly
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.5
+  - @ctx-core/fetch@10.0.9
+  - @ctx-core/function@19.1.4
+  - @ctx-core/object@20.0.5
+  - @ctx-core/sleep@7.0.4
+  - @ctx-core/store@26.0.6
+
 ## 8.0.11
 
 ### Patch Changes
