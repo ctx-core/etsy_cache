@@ -1,5 +1,18 @@
 # @ctx-core/etsy_cache
 
+## 8.0.13
+
+### Patch Changes
+
+- "prepare": "npm run clean && npm run compile"
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.6
+  - @ctx-core/fetch@10.0.10
+  - @ctx-core/function@19.1.5
+  - @ctx-core/object@20.0.6
+  - @ctx-core/sleep@7.0.5
+  - @ctx-core/store@26.0.7
+
 ## 8.0.12
 
 ### Patch Changes
