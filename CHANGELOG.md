@@ -1,5 +1,19 @@
 # @ctx-core/etsy_cache
 
+## 8.0.14
+
+### Patch Changes
+
+- fix: deploying \*.js files
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.7
+  - @ctx-core/fetch@10.0.11
+  - @ctx-core/function@19.1.6
+  - @ctx-core/object@20.0.7
+  - @ctx-core/sleep@7.0.6
+  - @ctx-core/store@26.0.8
+  - @ctx-core/ctx-core-package-tools@8.0.7
+
 ## 8.0.13
 
 ### Patch Changes
