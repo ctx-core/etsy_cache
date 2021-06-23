@@ -1,5 +1,13 @@
 # @ctx-core/etsy_cache
 
+## 8.0.16
+
+### Patch Changes
+
+- svelte: 3.38.2 -> 3.38.3
+- Updated dependencies [undefined]
+  - @ctx-core/store@26.0.10
+
 ## 8.0.15
 
 ### Patch Changes
