@@ -1,5 +1,19 @@
 # @ctx-core/etsy_cache
 
+## 8.0.18
+
+### Patch Changes
+
+- tsconfig.json: "lib": ["dom", "ESNext"]
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.10
+  - @ctx-core/fetch@10.0.14
+  - @ctx-core/function@19.1.8
+  - @ctx-core/object@20.1.1
+  - @ctx-core/sleep@7.0.8
+  - @ctx-core/store@26.0.12
+  - @ctx-core/ctx-core-package-tools@8.0.9
+
 ## 8.0.17
 
 ### Patch Changes
