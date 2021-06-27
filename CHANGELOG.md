@@ -1,5 +1,19 @@
 # @ctx-core/etsy_cache
 
+## 8.0.23
+
+### Patch Changes
+
+- dist directory
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.15
+  - @ctx-core/fetch@10.0.18
+  - @ctx-core/function@19.1.10
+  - @ctx-core/object@20.2.2
+  - @ctx-core/sleep@7.0.9
+  - @ctx-core/store@26.0.17
+  - @ctx-core/ctx-core-package-tools@8.0.12
+
 ## 8.0.22
 
 ### Patch Changes
