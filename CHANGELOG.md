@@ -1,5 +1,11 @@
 # @ctx-core/etsy_cache
 
+## 9.0.3
+
+### Patch Changes
+
+- import: + .js extention
+
 ## 9.0.2
 
 ### Patch Changes
