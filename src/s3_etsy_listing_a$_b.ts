@@ -1,6 +1,6 @@
 import { B, be_ } from '@ctx-core/object'
 import { derived$, Readable$ } from '@ctx-core/store'
-import { etsy_listing_ctx$_b } from './etsy_listing_ctx$_b'
+import { etsy_listing_ctx$_b } from './etsy_listing_ctx$_b.js'
 import type { etsy_cache_Ctx } from './etsy_cache_Ctx'
 import type { IListing } from 'etsy-ts/api'
 const key = 's3_etsy_listing_a$'

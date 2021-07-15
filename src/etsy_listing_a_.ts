@@ -1,5 +1,5 @@
 import type { IListing } from 'etsy-ts/api'
-import { fetch_etsy_listing_a } from './fetch_etsy_listing_a'
+import { fetch_etsy_listing_a } from './fetch_etsy_listing_a.js'
 export async function etsy_listing_a_():Promise<IListing[]> {
 	const response = await fetch_etsy_listing_a()
 	const { results } = await response.json()

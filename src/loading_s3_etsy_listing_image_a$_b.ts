@@ -1,7 +1,7 @@
 import { B, be_, assign } from '@ctx-core/object'
 import { has_dom } from '@ctx-core/dom'
 import { writable$, Writable$ } from '@ctx-core/store'
-import { s3_etsy_listing_image_a_ } from './s3_etsy_listing_image_a_'
+import { s3_etsy_listing_image_a_ } from './s3_etsy_listing_image_a_.js'
 import type { etsy_cache_Ctx } from './etsy_cache_Ctx'
 const key = 'loading_s3_etsy_listing_image_a$'
 export const loading_s3_etsy_listing_image_a$_b:B<etsy_cache_Ctx, typeof key> = be_(

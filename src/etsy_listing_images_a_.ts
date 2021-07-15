@@ -1,5 +1,5 @@
 import type { IListing, IListingImage } from 'etsy-ts/api'
-import { fetch_etsy_listing_images } from './fetch_etsy_listing_images'
+import { fetch_etsy_listing_images } from './fetch_etsy_listing_images.js'
 export async function etsy_listing_images_a_(
 	etsy_listing_a:IListing[]
 ):Promise<IListingImage[]> {

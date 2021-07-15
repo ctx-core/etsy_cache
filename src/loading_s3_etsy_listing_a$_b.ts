@@ -1,7 +1,7 @@
 import { writable$, Writable$ } from '@ctx-core/store'
 import { be_, assign } from '@ctx-core/object'
 import { has_dom } from '@ctx-core/dom'
-import { s3_etsy_listing_a_ } from './s3_etsy_listing_a_'
+import { s3_etsy_listing_a_ } from './s3_etsy_listing_a_.js'
 import type { etsy_cache_Ctx } from './etsy_cache_Ctx'
 const key = 'loading_s3_etsy_listing_a$'
 export function loading_s3_etsy_listing_a$_b(ctx:etsy_cache_Ctx) {
