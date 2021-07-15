@@ -1,12 +1,12 @@
-import type { IListingImage } from 'etsy-ts/api/ListingImage'
 import { sleep } from '@ctx-core/sleep'
+import type { etsy_listing_image_T } from './etsy_listing_image_T.js'
 import { etsy_listing_a_ } from './etsy_listing_a_.js'
 import { etsy_listing_images_a_ } from './etsy_listing_images_a_.js'
 import { put_etsy_listing_a } from './put_etsy_listing_a.js'
 import { put_etsy_listing_images_a } from './put_etsy_listing_images_a.js'
-export async function put_etsy_cache() {
+export async function put_etsy_cache():Promise<void> {
 	const etsy_listing_a = await etsy_listing_a_()
-	const etsy_listing_images_a:IListingImage[] = []
+	const etsy_listing_images_a:etsy_listing_image_T[] = []
 	const page_length = 5
 	for (let i = 0; i < etsy_listing_a.length; i += page_length) {
 		if (i) await sleep(1000)

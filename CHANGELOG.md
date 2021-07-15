@@ -1,5 +1,13 @@
 # @ctx-core/etsy_cache
 
+## 9.0.4
+
+### Patch Changes
+
+- fix: module imports;types
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.3
+
 ## 9.0.3
 
 ### Patch Changes

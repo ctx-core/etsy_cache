@@ -1,25 +1,25 @@
-<script>
-import { s3_etsy_listing_a } from '../s3_etsy_listing_a'
-import { s3_etsy_listing_image_a } from '../s3_etsy_listing_image_a'
-import {
-	_src__img, _title, _price, _description, _url,
-} from '@ctx-core/etsy'
+<script lang="ts">
+import { s3_etsy_listing_a$_b, s3_etsy_listing_a$_T } from '../s3_etsy_listing_a$_b.js'
+import { s3_etsy_listing_image_a$_b, s3_etsy_listing_image_a$_T } from '../s3_etsy_listing_image_a$_b.js'
+export let ctx
+const s3_etsy_listing_a$:s3_etsy_listing_a$_T = s3_etsy_listing_a$_b(ctx)
+const s3_etsy_listing_image_a$:s3_etsy_listing_image_a$_T = s3_etsy_listing_image_a$_b(ctx)
 </script>
 
 <div class="Etsy_Store">
-	{#each $s3_etsy_listing_a||[] as listing__etsy__s3, i}
-		<div class="listing" title="{_description(listing__etsy__s3)}">
+	{#each $s3_etsy_listing_a$||[] as s3_etsy_listing, i}
+		<div class="listing" title="{s3_etsy_listing.description}">
 			<div class="img-container">
-				{#if _src__img($s3_etsy_listing_image_a[i])}
+				{#if $s3_etsy_listing_image_a$[i].url_75x75}
 					<img
-						src="{_src__img($s3_etsy_listing_image_a[i])}"
-						alt="{_description(listing__etsy__s3)}"
+						src="{$s3_etsy_listing_image_a$[i].url_75x75}"
+						alt="{s3_etsy_listing.description}"
 					>
 				{/if}
 			</div>
-			<div class="title">{@html _title(listing__etsy__s3)}</div>
-			<div class="price">{_price(listing__etsy__s3)}</div>
-			<a href="{_url(listing__etsy__s3)}" class="buy" target="_blank">Buy on Etsy</a>
+			<div class="title">{@html s3_etsy_listing.title}</div>
+			<div class="price">{s3_etsy_listing.price}</div>
+			<a href="{s3_etsy_listing.url}" class="buy" target="_blank">Buy on Etsy</a>
 		</div>
 	{/each}
 </div>

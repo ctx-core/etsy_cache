@@ -1,9 +1,9 @@
-import { PutObjectCommand, S3Client } from '@aws-sdk/client-s3'
-import type { IListingImage } from 'etsy-ts/api/ListingImage'
+import { PutObjectCommand, S3Client, ServiceOutputTypes } from '@aws-sdk/client-s3'
+import type { etsy_listing_image_T } from './etsy_listing_image_T.js'
 export async function put_etsy_listing_images_a(
-	etsy_listing_images_a:IListingImage[],
+	etsy_listing_images_a:etsy_listing_image_T[],
 	params:put_etsy_listing_images_a_params_T = {}
-) {
+):Promise<ServiceOutputTypes> {
 	const {
 		region = 'us-east-1',
 		Bucket = process.env.S3_BUCKET as string,

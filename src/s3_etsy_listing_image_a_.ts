@@ -1,7 +1,10 @@
+import type { etsy_listing_image_T } from './etsy_listing_image_T'
 import {
-	fetch_s3_etsy_listing_image_a, fetch_s3_etsy_listing_image_a_params_I
+	fetch_s3_etsy_listing_image_a, fetch_s3_etsy_listing_image_a_params_I,
 } from './fetch_s3_etsy_listing_image_a.js'
-export async function s3_etsy_listing_image_a_(params:fetch_s3_etsy_listing_image_a_params_I = {}) {
+export async function s3_etsy_listing_image_a_(
+	params:fetch_s3_etsy_listing_image_a_params_I = {}
+):Promise<etsy_listing_image_T[]> {
 	const response = await fetch_s3_etsy_listing_image_a(params)
 	return response.json()
 }

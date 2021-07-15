@@ -37,7 +37,7 @@ cache-etsy.js
 
 `ETSY_STORE_ID`
 
-`ETSY_LISTING_A1_KEY` -
+`ETSY_LISTING_A_KEY` -
 	S3 Key for the json file containing the Array of Listings
 
 `ETSY_LISTING_IMAGES_A_KEY` -

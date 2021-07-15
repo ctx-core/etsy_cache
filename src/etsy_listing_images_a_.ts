@@ -1,9 +1,10 @@
-import type { IListing, IListingImage } from 'etsy-ts/api'
 import { fetch_etsy_listing_images } from './fetch_etsy_listing_images.js'
+import type { etsy_listing_T } from './etsy_listing_T'
+import type { etsy_listing_image_T } from './etsy_listing_image_T'
 export async function etsy_listing_images_a_(
-	etsy_listing_a:IListing[]
-):Promise<IListingImage[]> {
-	const etsy_listing_images_promise_a:Promise<IListingImage>[] = []
+	etsy_listing_a:etsy_listing_T[]
+):Promise<etsy_listing_image_T[]> {
+	const etsy_listing_images_promise_a:Promise<etsy_listing_image_T>[] = []
 	for (let i = 0; i < etsy_listing_a.length; i++) {
 		const etsy_listing = etsy_listing_a[i]
 		const { listing_id } = etsy_listing
