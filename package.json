@@ -4,6 +4,7 @@
 	"description": "cache data for an etsy account",
 	"author": "Brian Takit",
 	"homepage": "https://github.com/ctx-core/etsy_cache#readme",
+	"type": "module",
 	"main": "./dist/index.js",
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
