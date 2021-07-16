@@ -1,5 +1,33 @@
 # @ctx-core/etsy_cache
 
+## 9.0.15
+
+### Patch Changes
+
+- fix: sourceMappingURL: "mapRoot": ""
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.12
+  - @ctx-core/fetch@11.0.14
+  - @ctx-core/function@20.0.10
+  - @ctx-core/object@21.0.10
+  - @ctx-core/sleep@8.0.9
+  - @ctx-core/store@27.0.9
+  - @ctx-core/ctx-core-package-tools@8.0.35
+
+## 9.0.14
+
+### Patch Changes
+
+- tsconfig.json: "target": "es2019"
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.11
+  - @ctx-core/fetch@11.0.13
+  - @ctx-core/function@20.0.9
+  - @ctx-core/object@21.0.9
+  - @ctx-core/sleep@8.0.8
+  - @ctx-core/store@27.0.8
+  - @ctx-core/ctx-core-package-tools@8.0.34
+
 ## 9.0.13
 
 ### Patch Changes
