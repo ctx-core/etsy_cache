@@ -1,5 +1,19 @@
 # @ctx-core/etsy_cache
 
+## 9.0.10
+
+### Patch Changes
+
+- fix: index.cjs: module.exports = require('./index.js')
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.8
+  - @ctx-core/fetch@11.0.9
+  - @ctx-core/function@20.0.6
+  - @ctx-core/object@21.0.6
+  - @ctx-core/sleep@8.0.5
+  - @ctx-core/store@27.0.5
+  - @ctx-core/ctx-core-package-tools@8.0.30
+
 ## 9.0.9
 
 ### Patch Changes
