@@ -1,5 +1,19 @@
 # @ctx-core/etsy_cache
 
+## 9.0.7
+
+### Patch Changes
+
+- support cjs & esm: + "exports"
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.4
+  - @ctx-core/fetch@11.0.6
+  - @ctx-core/function@20.0.3
+  - @ctx-core/object@21.0.3
+  - @ctx-core/sleep@8.0.3
+  - @ctx-core/store@27.0.3
+  - @ctx-core/ctx-core-package-tools@8.0.28
+
 ## 9.0.6
 
 ### Patch Changes

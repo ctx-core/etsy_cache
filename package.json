@@ -1,37 +1,45 @@
 {
 	"name": "@ctx-core/etsy_cache",
-	"version": "9.0.6",
+	"version": "9.0.7",
 	"description": "cache data for an etsy account",
 	"author": "Brian Takit",
 	"homepage": "https://github.com/ctx-core/etsy_cache#readme",
 	"main": "./dist/index.js",
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
+	"exports": {
+		"require": "./dist/index.js",
+		"import": "./dist/index.mjs"
+	},
+	"bin": {
+		"cache-etsy": "./bin/cache-etsy.mjs"
+	},
 	"scripts": {
-		"build": "npm run clean && npm run generate_ctx_I_file && npm run copy-components && npm run compile",
+		"build": "npm run clean && npm run copy-mjs && npm run generate_ctx_I_file && npm run copy-components && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo && rm -f src/**/*.js && rm -f src/**/*.d.ts && rm -f src/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b .",
+		"copy-mjs": "cd dist && echo \"export * from './index.js'\" > index.mjs",
 		"copy-components": "cd src && find . | grep \\.svelte$ | awk '{print \"mkdir -p dirname \"$1\" && cp -f \"$1\" ../dist/\"$1}'",
 		"exec": "$@",
 		"generate_ctx_I_file": "./node_modules/.bin/generate_ctx_I_file",
 		"prepublishOnly": "npm run build",
-		"start": "./bin/cache-etsy.js"
+		"start": "./bin/cache-etsy.mjs"
 	},
 	"dependencies": {
 		"@aws-sdk/client-s3": "^3.21.0",
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.27",
-		"@ctx-core/dom": "workspace:^11.0.3",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.28",
+		"@ctx-core/dom": "workspace:^11.0.4",
 		"@ctx-core/etsy": "^3.0.19",
-		"@ctx-core/fetch": "workspace:^11.0.5",
-		"@ctx-core/function": "workspace:^20.0.2",
-		"@ctx-core/object": "workspace:^21.0.2",
-		"@ctx-core/sleep": "workspace:^8.0.2",
-		"@ctx-core/store": "workspace:^27.0.2",
+		"@ctx-core/fetch": "workspace:^11.0.6",
+		"@ctx-core/function": "workspace:^20.0.3",
+		"@ctx-core/object": "workspace:^21.0.3",
+		"@ctx-core/sleep": "workspace:^8.0.3",
+		"@ctx-core/store": "workspace:^27.0.3",
 		"esm": "^3.2.25",
 		"svelte": "3.38.3"
 	},
 	"devDependencies": {
-		"@ctx-core/dev-tools": "workspace:^7.0.3",
+		"@ctx-core/dev-tools": "workspace:^7.0.4",
 		"typescript": "^4.3.5"
 	},
 	"type": "module"
