@@ -1,5 +1,17 @@
 # @ctx-core/etsy_cache
 
+## 9.0.19
+
+### Patch Changes
+
+- exports: + "package.json": "./package.json"
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.14
+  - @ctx-core/function@20.0.11
+  - @ctx-core/object@21.0.11
+  - @ctx-core/sleep@8.0.10
+  - @ctx-core/store@27.0.10
+
 ## 9.0.18
 
 ### Patch Changes
