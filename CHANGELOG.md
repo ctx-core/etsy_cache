@@ -1,5 +1,11 @@
 # @ctx-core/etsy_cache
 
+## 9.0.29
+
+### Patch Changes
+
+- fix: \*\_ctx_I.generated
+
 ## 9.0.28
 
 ### Patch Changes
