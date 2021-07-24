@@ -1,5 +1,14 @@
 # @ctx-core/etsy_cache
 
+## 9.0.31
+
+### Patch Changes
+
+- svelte: 3.40.1 -> 3.40.2
+- @aws-sdk/client-s3: ^3.22.0 -> ^3.23.0
+- Updated dependencies [undefined]
+  - @ctx-core/store@27.0.14
+
 ## 9.0.30
 
 ### Patch Changes
