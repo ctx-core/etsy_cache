@@ -1,5 +1,13 @@
 # @ctx-core/etsy_cache
 
+## 9.0.79
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/fetch@11.0.61
+
 ## 9.0.78
 
 ### Patch Changes
