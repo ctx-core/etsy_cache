@@ -1,5 +1,19 @@
 # @ctx-core/etsy_cache
 
+## 9.0.87
+
+### Patch Changes
+
+- typescript: ^4.4.2 -> ^4.4.3
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.24
+  - @ctx-core/fetch@11.0.66
+  - @ctx-core/function@20.1.4
+  - @ctx-core/object@21.0.18
+  - @ctx-core/sleep@8.0.13
+  - @ctx-core/store@27.0.28
+  - @ctx-core/ctx-core-package-tools@8.0.69
+
 ## 9.0.86
 
 ### Patch Changes
