@@ -1,5 +1,11 @@
 # @ctx-core/etsy_cache
 
+## 9.0.95
+
+### Patch Changes
+
+- @aws-sdk/client-s3: ^3.31.0 -> ^3.32.0
+
 ## 9.0.94
 
 ### Patch Changes
