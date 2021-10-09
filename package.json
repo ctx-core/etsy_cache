@@ -31,10 +31,10 @@
 	},
 	"dependencies": {
 		"@aws-sdk/client-s3": "^3.36.0",
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.75",
-		"@ctx-core/dom": "workspace:^11.0.26",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.76",
+		"@ctx-core/dom": "workspace:^11.0.27",
 		"@ctx-core/etsy": "^3.0.19",
-		"@ctx-core/fetch": "workspace:^11.0.75",
+		"@ctx-core/fetch": "workspace:^11.0.76",
 		"@ctx-core/function": "workspace:^20.2.1",
 		"@ctx-core/object": "workspace:^21.0.20",
 		"@ctx-core/sleep": "workspace:^8.0.13",
