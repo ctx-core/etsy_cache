@@ -1,5 +1,24 @@
 # @ctx-core/etsy_cache
 
+## 9.0.107
+
+### Patch Changes
+
+- typescript: ^4.4.3 -> ^4.4.4
+- @aws-sdk/client-s3: ^3.36.0 -> ^3.39.0
+- svelte: 3.43.1 -> 3.44.0
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.28
+  - @ctx-core/fetch@11.0.77
+  - @ctx-core/function@20.2.2
+  - @ctx-core/object@21.0.21
+  - @ctx-core/sleep@8.0.14
+  - @ctx-core/store@27.0.34
+  - @ctx-core/ctx-core-package-tools@8.0.77
+
 ## 9.0.106
 
 ### Patch Changes
