@@ -1,5 +1,5 @@
-import type { etsy_listing_T } from './etsy_listing_T.js'
 import { PutObjectCommand, S3Client, ServiceOutputTypes } from '@aws-sdk/client-s3'
+import type { etsy_listing_T } from './etsy_listing_T.js'
 export async function put_etsy_listing_a(
 	etsy_listing_a:etsy_listing_T[],
 	params:put_etsy_listing_a_params_T = {}

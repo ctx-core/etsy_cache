@@ -1,6 +1,6 @@
-import { fetch_etsy_listing_images } from './fetch_etsy_listing_images.js'
 import type { etsy_listing_T } from './etsy_listing_T'
-import type { etsy_listing_image_T } from './etsy_listing_image_T'
+import type { etsy_listing_image_T } from './etsy_listing_image_T.js'
+import { fetch_etsy_listing_images } from './fetch_etsy_listing_images.js'
 export async function etsy_listing_images_a_(
 	etsy_listing_a:etsy_listing_T[]
 ):Promise<etsy_listing_image_T[]> {

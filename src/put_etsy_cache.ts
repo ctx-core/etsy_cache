@@ -1,7 +1,7 @@
 import { sleep } from '@ctx-core/sleep'
-import type { etsy_listing_image_T } from './etsy_listing_image_T.js'
 import { etsy_listing_a_ } from './etsy_listing_a_.js'
 import { etsy_listing_images_a_ } from './etsy_listing_images_a_.js'
+import type { etsy_listing_image_T } from './etsy_listing_image_T.js'
 import { put_etsy_listing_a } from './put_etsy_listing_a.js'
 import { put_etsy_listing_images_a } from './put_etsy_listing_images_a.js'
 export async function put_etsy_cache():Promise<void> {

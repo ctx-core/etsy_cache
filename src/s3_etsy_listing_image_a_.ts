@@ -1,4 +1,4 @@
-import type { etsy_listing_image_T } from './etsy_listing_image_T'
+import type { etsy_listing_image_T } from './etsy_listing_image_T.js'
 import {
 	fetch_s3_etsy_listing_image_a, fetch_s3_etsy_listing_image_a_params_I,
 } from './fetch_s3_etsy_listing_image_a.js'
