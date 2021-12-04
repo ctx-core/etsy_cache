@@ -1,5 +1,18 @@
 # @ctx-core/etsy_cache
 
+## 9.0.118
+
+### Patch Changes
+
+- @swc/core: ^1.2.116 -> ^1.2.117
+- Updated dependencies
+  - @ctx-core/dom@11.0.36
+  - @ctx-core/fetch@11.0.87
+  - @ctx-core/function@20.2.9
+  - @ctx-core/object@21.0.28
+  - @ctx-core/sleep@8.0.21
+  - @ctx-core/store@27.0.42
+
 ## 9.0.117
 
 ### Patch Changes
