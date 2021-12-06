@@ -1,5 +1,16 @@
 # @ctx-core/etsy_cache
 
+## 9.0.124
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+- Updated dependencies
+  - @ctx-core/dom@11.0.39
+  - @ctx-core/fetch@11.0.90
+  - @ctx-core/sleep@8.0.23
+  - @ctx-core/store@27.0.45
+
 ## 9.0.123
 
 ### Patch Changes
