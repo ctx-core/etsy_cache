@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/etsy_cache",
-	"version": "9.0.125",
+	"version": "9.0.126",
 	"description": "cache data for an etsy account",
 	"author": "Brian Takit",
 	"homepage": "https://github.com/ctx-core/etsy_cache#readme",
@@ -30,7 +30,7 @@
 		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.85",
 		"@ctx-core/dom": "workspace:^11.0.39",
 		"@ctx-core/etsy": "^3.0.19",
-		"@ctx-core/fetch": "workspace:^11.0.91",
+		"@ctx-core/fetch": "workspace:^11.0.92",
 		"@ctx-core/function": "workspace:^20.2.12",
 		"@ctx-core/object": "workspace:^21.0.30",
 		"@ctx-core/sleep": "workspace:^8.0.23",
