@@ -1,5 +1,22 @@
 # @ctx-core/etsy_cache
 
+## 10.0.0
+
+### Major Changes
+
+- \*\_b: ctx is a map: @ctx-core/object: 22.0.0
+
+### Patch Changes
+
+- package.json: - module
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/object@22.0.0
+  - @ctx-core/dom@11.0.40
+  - @ctx-core/sleep@8.0.24
+  - @ctx-core/store@27.0.46
+  - @ctx-core/fetch@11.0.93
+
 ## 9.0.126
 
 ### Patch Changes

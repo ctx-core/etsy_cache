@@ -1,12 +1,11 @@
 import { has_dom } from '@ctx-core/dom'
 import { writable$, Writable$ } from '@ctx-core/store'
-import { be_, assign } from '@ctx-core/object'
-import type { etsy_cache_Ctx } from './etsy_cache_Ctx.js'
+import { be_, assign, Ctx } from '@ctx-core/object'
 import type { etsy_listing_T } from './etsy_listing_T'
 import { s3_etsy_listing_a_ } from './s3_etsy_listing_a_.js'
 const key = 'loading_s3_etsy_listing_a$'
-export function loading_s3_etsy_listing_a$_b(ctx:etsy_cache_Ctx):loading_s3_etsy_listing_a$_T {
-	return be_<etsy_cache_Ctx, typeof key>(
+export function loading_s3_etsy_listing_a$_b(ctx:Ctx):loading_s3_etsy_listing_a$_T {
+	return be_<loading_s3_etsy_listing_a$_T>(
 		key, ()=>{
 			const loading_s3_etsy_listing_a$ = writable$<etsy_listing_T[]|undefined>(undefined)
 			if (has_dom) {
