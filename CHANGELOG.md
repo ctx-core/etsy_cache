@@ -1,5 +1,11 @@
 # @ctx-core/etsy_cache
 
+## 11.0.0
+
+### Major Changes
+
+- extracted @ctx-core/etsy_cache-ui-svelte
+
 ## 10.0.0
 
 ### Major Changes
