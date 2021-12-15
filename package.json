@@ -1,14 +1,14 @@
 {
 	"name": "@ctx-core/etsy_cache",
-	"version": "11.0.2",
+	"version": "11.0.3",
 	"description": "cache data for an etsy account",
 	"author": "Brian Takit",
 	"homepage": "https://github.com/ctx-core/etsy_cache#readme",
 	"type": "module",
 	"exports": {
 		".": {
-			"types": "./src/index.ts",
-			"import": "./dist/index.js"
+			"import": "./dist/index.js",
+			"types": "./src/index.ts"
 		},
 		"./package.json": "./package.json"
 	},
@@ -25,14 +25,14 @@
 	},
 	"dependencies": {
 		"@aws-sdk/client-s3": "^3.44.0",
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.88",
-		"@ctx-core/dom": "workspace:^11.0.41",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.89",
+		"@ctx-core/dom": "workspace:^11.0.42",
 		"@ctx-core/etsy": "^3.0.19",
-		"@ctx-core/fetch": "workspace:^11.0.94",
-		"@ctx-core/function": "workspace:^20.2.13",
-		"@ctx-core/object": "workspace:^22.0.1",
-		"@ctx-core/sleep": "workspace:^8.0.25",
-		"@ctx-core/store": "workspace:^27.0.48"
+		"@ctx-core/fetch": "workspace:^11.0.95",
+		"@ctx-core/function": "workspace:^20.2.14",
+		"@ctx-core/object": "workspace:^22.0.2",
+		"@ctx-core/sleep": "workspace:^8.0.26",
+		"@ctx-core/store": "workspace:^27.0.49"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
@@ -40,5 +40,12 @@
 		"rimraf": "^3.0.2",
 		"typescript": "next"
 	},
-	"svelte": "./dist/index.js"
+	"svelte": "./dist/index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/etsy_cache.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ctx-core/etsy_cache/issues"
+	}
 }
