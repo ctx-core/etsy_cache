@@ -1,5 +1,19 @@
 # @ctx-core/etsy_cache
 
+## 11.0.5
+
+### Patch Changes
+
+- \*.d.ts export
+- Updated dependencies
+  - @ctx-core/dom@11.0.44
+  - @ctx-core/fetch@11.0.97
+  - @ctx-core/function@20.2.16
+  - @ctx-core/object@22.0.4
+  - @ctx-core/sleep@8.0.28
+  - @ctx-core/store@27.0.51
+  - @ctx-core/ctx-core-package-tools@8.0.91
+
 ## 11.0.4
 
 ### Patch Changes
