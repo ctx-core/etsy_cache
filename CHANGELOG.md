@@ -1,5 +1,17 @@
 # @ctx-core/etsy_cache
 
+## 12.0.6
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+- Updated dependencies
+  - @ctx-core/dom@11.1.2
+  - @ctx-core/fetch@11.0.104
+  - @ctx-core/function@20.2.21
+  - @ctx-core/nanostores@0.3.1
+  - @ctx-core/sleep@8.0.33
+
 ## 12.0.5
 
 ### Patch Changes
