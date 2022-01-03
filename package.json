@@ -30,7 +30,7 @@
 		"@aws-sdk/client-s3": "^3.45.0",
 		"@ctx-core/dom": "workspace:^11.1.2",
 		"@ctx-core/etsy": "^3.0.19",
-		"@ctx-core/fetch": "workspace:^11.0.104",
+		"@ctx-core/fetch": "workspace:^11.0.105",
 		"@ctx-core/function": "workspace:^20.2.21",
 		"@ctx-core/nanostores": "workspace:^0.3.1",
 		"@ctx-core/object": "workspace:^22.0.8",
