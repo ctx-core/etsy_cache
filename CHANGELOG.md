@@ -1,5 +1,19 @@
 # @ctx-core/etsy_cache
 
+## 12.0.9
+
+### Patch Changes
+
+- @swc/core: ^1.2.125 -> ^1.2.127
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/dom@11.1.4
+  - @ctx-core/fetch@11.0.108
+  - @ctx-core/function@20.2.24
+  - @ctx-core/nanostores@0.3.3
+  - @ctx-core/object@22.0.11
+  - @ctx-core/sleep@8.0.35
+
 ## 12.0.8
 
 ### Patch Changes
