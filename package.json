@@ -32,7 +32,7 @@
 		"@ctx-core/etsy": "^3.0.19",
 		"@ctx-core/fetch": "workspace:^11.0.111",
 		"@ctx-core/function": "workspace:^20.2.25",
-		"@ctx-core/nanostores": "workspace:^0.3.7",
+		"@ctx-core/nanostores": "workspace:^0.3.8",
 		"@ctx-core/object": "workspace:^22.0.12",
 		"@ctx-core/sleep": "workspace:^8.0.36"
 	},
