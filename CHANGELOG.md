@@ -1,5 +1,21 @@
 # @ctx-core/etsy_cache
 
+## 12.0.15
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies
+  - @ctx-core/fetch@11.0.112
+
+## 12.0.14
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/nanostores@0.4.0
+
 ## 12.0.13
 
 ### Patch Changes
