@@ -27,7 +27,7 @@
 		"start": "./bin/cache-etsy.mjs"
 	},
 	"dependencies": {
-		"@aws-sdk/client-s3": "^3.46.0",
+		"@aws-sdk/client-s3": "^3.47.0",
 		"@ctx-core/dom": "workspace:^11.1.5",
 		"@ctx-core/etsy": "^3.0.19",
 		"@ctx-core/fetch": "workspace:^11.0.112",
@@ -38,7 +38,7 @@
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.129",
+		"@swc/core": "^1.2.130",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
 	},
