@@ -1,5 +1,11 @@
 # @ctx-core/etsy_cache
 
+## 12.1.3
+
+### Patch Changes
+
+- update dependencies
+
 ## 12.1.2
 
 ### Patch Changes
