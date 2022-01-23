@@ -5,7 +5,7 @@ import { fetch_s3_etsy_listing_a } from './fetch_s3_etsy_listing_a.js'
  * @private
  */
 export async function s3_etsy_listing_a_(params = {}) {
-	const response = await fetch_s3_etsy_listing_a(params)
-	return response.json()
+	const [json] = await fetch_s3_etsy_listing_a(params)
+	return json
 }
 export { s3_etsy_listing_a_ as _s3_etsy_listing_a, }

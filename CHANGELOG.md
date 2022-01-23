@@ -1,5 +1,19 @@
 # @ctx-core/etsy_cache
 
+## 13.0.0
+
+### Major Changes
+
+- all \_b use fetch return pairs [payload, response]
+
+### Patch Changes
+
+- use fetch instead of safe_fetch
+- use fetch instead of safe_fetch
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/fetch-undici@1.1.0
+
 ## 12.1.4
 
 ### Patch Changes

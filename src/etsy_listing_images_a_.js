@@ -12,11 +12,10 @@ export async function etsy_listing_images_a_(etsy_listing_a) {
 	}
 	return await Promise.all(etsy_listing_images_promise_a)
 	async function etsy_listing_images_(listing_id) {
-		const response = await fetch_etsy_listing_images(listing_id)
+		const [etsy_listing_images, response] = await fetch_etsy_listing_images(listing_id)
 		if (response.headers.get('content-type') == 'application/json') {
 			/** @type {{ results: import('./_types').etsy_listing_image_T[] }} */
-			const json = await response.json()
-			return json.results[0]
+			return etsy_listing_images.results[0]
 		} else {
 			console.warn(`listing_id ${listing_id} failed`, response.headers)
 		}

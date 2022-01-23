@@ -6,7 +6,5 @@ export interface fetch_s3_etsy_listing_a_params_I {
 	S3_BUCKET?:string;
 	ETSY_LISTING_A_KEY?:string;
 }
-export type fetch_s3_etsy_listing_a_ret_T = Promise<Response&{
-	json():Promise<{ response:etsy_listing_T[] }>
-}>
+export type fetch_s3_etsy_listing_a_ret_T = Promise<[etsy_listing_T, Response]>
 export { fetch_s3_etsy_listing_a as fetch_s3_etsy_listing_a1, }
