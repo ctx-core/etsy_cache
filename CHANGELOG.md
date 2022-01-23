@@ -1,5 +1,11 @@
 # @ctx-core/etsy_cache
 
+## 12.1.0
+
+### Minor Changes
+
+- @ctx-core/fetch-undici instead of @ctx-core/fetch
+
 ## 12.0.16
 
 ### Patch Changes
