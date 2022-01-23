@@ -1,5 +1,13 @@
 # @ctx-core/etsy_cache
 
+## 12.1.1
+
+### Patch Changes
+
+- dom types: fetch,Request,Response
+- Updated dependencies
+  - @ctx-core/fetch-undici@1.0.1
+
 ## 12.1.0
 
 ### Minor Changes

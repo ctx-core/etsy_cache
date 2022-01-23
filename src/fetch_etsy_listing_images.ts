@@ -7,7 +7,7 @@ export async function fetch_etsy_listing_images(
 	const { ETSY_API_KEY = process.env.ETSY_API_KEY } = params
 	return fetch(
 		`https://openapi.etsy.com/v2/listings/${listing_id}/images?api_key=${ETSY_API_KEY}`
-	) as Promise<Response&{ json():Promise<etsy_listing_image_T[]> }>
+	)
 }
 export interface fetch_etsy_listing_images_params_I {
 	ETSY_API_KEY?:string
