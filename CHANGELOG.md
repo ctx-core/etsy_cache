@@ -1,5 +1,11 @@
 # @ctx-core/etsy_cache
 
+## 12.1.2
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+
 ## 12.1.1
 
 ### Patch Changes

@@ -1,14 +1,14 @@
 {
 	"name": "@ctx-core/etsy_cache",
-	"version": "12.1.1",
+	"version": "12.1.2",
 	"description": "cache data for an etsy account",
 	"author": "Brian Takit",
 	"homepage": "https://github.com/ctx-core/etsy_cache#readme",
 	"type": "module",
-	"types": "./lib/index.d.ts",
+	"types": "./src/index.d.ts",
 	"exports": {
 		".": {
-			"import": "./lib/index.js"
+			"import": "./src/index.js"
 		},
 		"./package.json": "./package.json"
 	},
@@ -16,15 +16,13 @@
 		"cache-etsy": "./bin/cache-etsy.mjs"
 	},
 	"scripts": {
-		"build": "npm run compile",
-		"clean": "rimraf lib && npm run clean:tsbuildinfo",
-		"clean:tsbuildinfo": "rimraf tsconfig.tsbuildinfo && rimraf lib/**/*.d.ts",
-		"compile": "npm run compile:source && npm run compile:declaration",
-		"compile:source": "swc src --out-dir lib --copy-files --source-maps --config-file .swcrc",
-		"compile:declaration": "npm run clean:tsbuildinfo && tsc --declaration --emitDeclarationOnly --declarationDir lib",
+		"build": ":",
+		"clean": ":",
 		"exec": "$@",
-		"prepublishOnly": "npm run clean && npm run build",
-		"start": "./bin/cache-etsy.mjs"
+		"prepublishOnly": "npm run clean && npm run build && npm run test",
+		"test": "pnpm test-unit && check-dts",
+		"test-unit": "tsm node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
+		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
 		"@aws-sdk/client-s3": "^3.48.0",
@@ -37,12 +35,13 @@
 		"@ctx-core/sleep": "workspace:^8.0.36"
 	},
 	"devDependencies": {
-		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.133",
-		"rimraf": "^3.0.2",
-		"typescript": "next"
+		"c8": "^7.11.0",
+		"check-dts": "^0.6.6",
+		"tsm": "^2.2.1",
+		"typescript": "next",
+		"uvu": "^0.5.3"
 	},
-	"svelte": "./lib/index.js",
+	"svelte": "./src/index.js",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/ctx-core/etsy_cache.git"
