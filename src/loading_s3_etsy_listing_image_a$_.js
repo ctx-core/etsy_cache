@@ -1,12 +1,11 @@
 import { has_dom } from '@ctx-core/dom'
-import { be_, assign } from '@ctx-core/object'
 import { atom$ } from '@ctx-core/nanostores'
+import { assign, be_ } from '@ctx-core/object'
 import { s3_etsy_listing_image_a_ } from './s3_etsy_listing_image_a_.js'
 const key = 'loading_s3_etsy_listing_image_a$'
-/** @typedef {import('./loading_s3_etsy_listing_image_a$_b.d.ts').loading_s3_etsy_listing_image_a$_b}loading_s3_etsy_listing_image_a$_b */
-/** @type {loading_s3_etsy_listing_image_a$_b} */
-export const loading_s3_etsy_listing_image_a$_b = be_(key, ()=>{
-	/** @type {loading_s3_etsy_listing_image_a$_b} */
+/** @type {import('./loading_s3_etsy_listing_image_a$_.d.ts').loading_s3_etsy_listing_image_a$_} */
+export const loading_s3_etsy_listing_image_a$_ = be_(key, ()=>{
+	/** @type {import('./loading_s3_etsy_listing_image_a$_.d.ts').loading_s3_etsy_listing_image_a$_T} */
 	const loading_s3_etsy_listing_image_a$ = atom$(undefined)
 	if (has_dom) {
 		reload_loading_s3_etsy_listing_image_a().then()
