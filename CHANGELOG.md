@@ -1,5 +1,13 @@
 # @ctx-core/etsy_cache
 
+## 14.0.11
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies
+  - @ctx-core/dom@11.1.7
+
 ## 14.0.10
 
 ### Patch Changes
