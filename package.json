@@ -30,7 +30,7 @@
 		"@ctx-core/etsy": "^3.0.19",
 		"@ctx-core/fetch-undici": "^1.2.8",
 		"@ctx-core/function": "*",
-		"@ctx-core/nanostores": "^1.0.0",
+		"@ctx-core/nanostores": "^1.0.1",
 		"@ctx-core/object": "*",
 		"@ctx-core/sleep": "^8.0.36"
 	},
