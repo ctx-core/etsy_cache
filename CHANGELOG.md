@@ -1,5 +1,11 @@
 # @ctx-core/etsy_cache
 
+## 14.0.65
+
+### Patch Changes
+
+- "@ctx-core/nanostores": "^1.1.1"
+
 ## 14.0.64
 
 ### Patch Changes
