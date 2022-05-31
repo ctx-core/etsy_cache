@@ -1,5 +1,11 @@
 # @ctx-core/etsy_cache
 
+## 14.1.0
+
+### Minor Changes
+
+- \__ suffix aliased by \$_
+
 ## 14.0.69
 
 ### Patch Changes

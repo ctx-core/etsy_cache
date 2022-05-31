@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/etsy_cache",
-	"version": "14.0.69",
+	"version": "14.1.0",
 	"description": "cache data for an etsy account",
 	"author": "Brian Takit",
 	"homepage": "https://github.com/ctx-core/etsy_cache#readme",
