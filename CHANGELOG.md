@@ -1,5 +1,14 @@
 # @ctx-core/etsy_cache
 
+## 14.1.3
+
+### Patch Changes
+
+- @aws-sdk/node-config-provider: ^3.80.0 -> ^3.109.0
+- @aws-sdk/client-s3: ^3.107.0 -> ^3.109.0
+- Updated dependencies
+  - @ctx-core/fetch-undici@2.1.17
+
 ## 14.1.2
 
 ### Patch Changes
