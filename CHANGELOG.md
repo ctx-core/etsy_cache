@@ -1,5 +1,11 @@
 # @ctx-core/etsy_cache
 
+## 14.1.10
+
+### Patch Changes
+
+- fix: author: Brian Takita
+
 ## 14.1.9
 
 ### Patch Changes

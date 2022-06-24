@@ -1,8 +1,8 @@
 {
 	"name": "@ctx-core/etsy_cache",
-	"version": "14.1.9",
+	"version": "14.1.10",
 	"description": "cache data for an etsy account",
-	"author": "Brian Takit",
+	"author": "Brian Takita",
 	"homepage": "https://github.com/ctx-core/etsy_cache#readme",
 	"type": "module",
 	"types": "./src/index.d.ts",
