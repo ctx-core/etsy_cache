@@ -1,5 +1,5 @@
-import { ReadableAtom_ } from '@ctx-core/nanostores'
-import { B } from '@ctx-core/object'
+import { type ReadableAtom_ } from '@ctx-core/nanostores'
+import { type B } from '@ctx-core/object'
 import type { etsy_listing_image_T, etsy_listing_T } from './_types'
 export declare const etsy_listing_ctx__:B<ReadableAtom_<etsy_listing_ctx_T|undefined>>
 export interface etsy_listing_ctx_T {
