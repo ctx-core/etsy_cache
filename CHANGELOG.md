@@ -1,5 +1,13 @@
 # @ctx-core/etsy_cache
 
+## 14.1.138
+
+### Patch Changes
+
+- @aws-sdk/client-s3: ^3.259.0 -> ^3.261.0
+- Updated dependencies
+  - @ctx-core/nanostores@2.2.16
+
 ## 14.1.137
 
 ### Patch Changes
