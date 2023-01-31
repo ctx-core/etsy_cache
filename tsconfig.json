@@ -22,10 +22,8 @@
 			"node_modules/@types"
 		],
 		"rootDir": "src",
-		"outDir": "lib",
 		"declarationDir": "lib",
 		"lib": ["dom", "ESNext"],
-		"importsNotUsedAsValues": "preserve",
 		"strict": true
 	},
 	"exclude": [
