@@ -1,5 +1,18 @@
 # @ctx-core/etsy_cache
 
+## 14.1.140
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+- Updated dependencies
+  - @ctx-core/dom@11.2.25
+  - @ctx-core/fetch-undici@2.3.57
+  - @ctx-core/function@21.6.1
+  - @ctx-core/nanostores@2.2.17
+  - @ctx-core/object@24.1.1
+  - @ctx-core/sleep@8.0.40
+
 ## 14.1.139
 
 ### Patch Changes
