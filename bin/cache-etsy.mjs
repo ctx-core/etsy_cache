@@ -1,3 +1,3 @@
 #!/usr/bin/env node
-export { put_etsy_cache } from '../src/index.js'
-await put_etsy_cache()
+export { etsy_cache__put } from '../src/index.js'
+await etsy_cache__put()

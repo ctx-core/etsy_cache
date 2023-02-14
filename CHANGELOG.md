@@ -1,5 +1,16 @@
 # @ctx-core/etsy_cache
 
+## 15.0.0
+
+### Major Changes
+
+- - loading**s3**etsy_listing_a**reload: loading**s3**etsy_listing_a**: remove member function
+- loading**s3**etsy_listing_image_a**reload: loading**s3**etsy_listing_image_a**: removed member function
+
+### Minor Changes
+
+- extract _.js & _.d.ts into directories
+
 ## 14.1.167
 
 ### Patch Changes
