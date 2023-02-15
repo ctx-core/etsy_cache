@@ -1,5 +1,13 @@
 # @ctx-core/etsy_cache
 
+## 15.0.4
+
+### Patch Changes
+
+- @ctx-core/sleep: ^8.0.41 -> ^8.1.0
+- Updated dependencies
+  - @ctx-core/fetch-undici@2.3.80
+
 ## 15.0.3
 
 ### Patch Changes
