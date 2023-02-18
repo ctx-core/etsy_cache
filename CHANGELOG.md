@@ -1,5 +1,11 @@
 # @ctx-core/etsy_cache
 
+## 15.0.16
+
+### Patch Changes
+
+- @ctx-core/fetch-undici: ^2.3.89 -> ^2.3.90
+
 ## 15.0.15
 
 ### Patch Changes
