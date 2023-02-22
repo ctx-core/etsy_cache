@@ -1,5 +1,12 @@
 # @ctx-core/etsy_cache
 
+## 15.0.29
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/env@17.2.10
+
 ## 15.0.28
 
 ### Patch Changes
