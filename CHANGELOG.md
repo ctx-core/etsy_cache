@@ -1,5 +1,13 @@
 # @ctx-core/etsy_cache
 
+## 15.0.33
+
+### Patch Changes
+
+- reference type: Be instead of B
+- Updated dependencies
+  - @ctx-core/env@17.2.13
+
 ## 15.0.32
 
 ### Patch Changes
