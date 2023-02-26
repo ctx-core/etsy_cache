@@ -1,8 +1,9 @@
+import { import_meta_env_ } from '@ctx-core/env'
 import { fetch } from '@ctx-core/fetch-undici'
 /** @type {typeof import('./index.d.ts').s3__etsy_listing_a__fetch_get} */
 export const s3__etsy_listing_a__fetch_get = async (params = {})=>{
-	const { S3_BUCKET = process.env.S3_BUCKET } = params
-	const { ETSY_LISTING_A_KEY = process.env.ETSY_LISTING_A_KEY, } = params
+	const { S3_BUCKET = import_meta_env_().S3_BUCKET } = params
+	const { ETSY_LISTING_A_KEY = import_meta_env_().ETSY_LISTING_A_KEY, } = params
 	return fetch(`https://s3.amazonaws.com/${S3_BUCKET}/${ETSY_LISTING_A_KEY}`, {
 		mode: 'cors'
 	})

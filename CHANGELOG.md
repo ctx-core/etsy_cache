@@ -1,5 +1,13 @@
 # @ctx-core/etsy_cache
 
+## 15.0.49
+
+### Patch Changes
+
+- import*meta_env*() instead of process.env
+- Updated dependencies
+  - @ctx-core/env@17.2.18
+
 ## 15.0.48
 
 ### Patch Changes
