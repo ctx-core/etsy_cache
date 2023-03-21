@@ -1,5 +1,15 @@
 # @ctx-core/etsy_cache
 
+## 15.0.109
+
+### Patch Changes
+
+- @ctx-core/fetch-undici: ^2.3.157 -> ^2.3.158
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/dom@14.0.3
+  - @ctx-core/env@17.2.39
+
 ## 15.0.108
 
 ### Patch Changes
