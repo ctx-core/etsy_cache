@@ -1,5 +1,13 @@
 # @ctx-core/etsy_cache
 
+## 15.0.235
+
+### Patch Changes
+
+- @aws-sdk/client-s3: ^3.335.0 -> ^3.337.0
+- @aws-sdk/types: ^3.329.0 -> ^3.337.0
+- @aws-sdk/node-config-provider: ^3.329.0 -> ^3.337.0
+
 ## 15.0.234
 
 ### Patch Changes
