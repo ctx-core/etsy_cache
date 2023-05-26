@@ -1,5 +1,13 @@
 # @ctx-core/etsy_cache
 
+## 15.0.239
+
+### Patch Changes
+
+- @ctx-core/nanostores: ^4.0.3 -> ^4.0.4
+- Updated dependencies
+  - @ctx-core/env@17.2.96
+
 ## 15.0.238
 
 ### Patch Changes
