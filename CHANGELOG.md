@@ -1,5 +1,46 @@
 # @ctx-core/etsy_cache
 
+## 16.0.0
+
+### Major Changes
+
+- import.meta.env: ETSY_LISTING_IMAGES_A_KEY=>ETSY_LISTING_IMAGE_A_KEY
+- etsy_cache**listing_images_a**put=>etsy_cache**listing_image_a**put
+- etsy*listing_image_a*=>etsy_listing_image_a\_\_new
+- etsy*listing_a*=>etsy_listing_a\_\_new
+
+### Minor Changes
+
+- - loading**s3**etsy*listing_image_a*,loading**s3**etsy_listing_image_a\_\_set
+
+  loading**s3**etsy*listing_image_a$*: aliased by loading**s3**etsy*listing_image_a*
+
+- - etsy*listing_o*
+- - s3\__etsy_listing_image_a_
+
+  s3**etsy*listing_image_a$*: aliased by s3**etsy*listing_image_a*
+
+- - s3\__etsy_listing_a_
+
+  s3**etsy*listing_a$*: aliased by s3**etsy*listing_a*
+
+- - loading**s3**etsy*listing_a*,loading**s3**etsy_listing_a\_\_set
+
+  loading**s3**etsy*listing_a$*: aliased by loading**s3**etsy*listing_a*
+
+### Patch Changes
+
+- etsy*listing_o$*: aliased by etsy*listing_o*
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/env@17.3.0
+  - @ctx-core/object@28.0.5
+
 ## 15.0.330
 
 ### Patch Changes
