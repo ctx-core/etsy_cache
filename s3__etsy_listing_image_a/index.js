@@ -17,7 +17,7 @@ export {
 }
 /**
  * @param {import('./index.d.ts').s3__etsy_listing_image_a__fetch_get__params_T} [params]
- * @returns {Promise<import('../_types').etsy_listing_image_T[]>}
+ * @returns {Promise<import('../_types/index.js').etsy_listing_image_T[]>}
  */
 export async function s3__etsy_listing_image_a__new(
 	params = {}

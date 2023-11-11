@@ -1,4 +1,4 @@
-import type { etsy_listing_image_T, etsy_listing_T, etsy_payload_T } from '../_types'
+import type { etsy_listing_image_T, etsy_listing_T, etsy_payload_T } from '../_types/index.js'
 export declare function etsy_listing_image_a__new(
 	etsy_listing_a:etsy_listing_T[]
 ):Promise<etsy_listing_image_T[]>

@@ -1,6 +1,6 @@
 import type { val__be_atom_triple_T } from '@ctx-core/nanostores'
 import type { Ctx } from '@ctx-core/object'
-import type { etsy_listing_T } from '../_types'
+import type { etsy_listing_T } from '../_types/index.js'
 export declare const [
 	loading__s3__etsy_listing_a$_,
 	loading__s3__etsy_listing_a_,

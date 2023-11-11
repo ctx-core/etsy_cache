@@ -1,7 +1,7 @@
 import { PutObjectCommand, S3Client } from '@aws-sdk/client-s3'
 import { import_meta_env_ } from '@ctx-core/env'
 /**
- * @param {import('../_types').etsy_listing_image_T[]} etsy_listing_image_a
+ * @param {import('../_types/index.js').etsy_listing_image_T[]} etsy_listing_image_a
  * @param {import('./index.d.ts').put_etsy_listing_images_a_params_T} [params]
  * @returns {import('@aws-sdk/client-s3').ServiceOutputTypes}
  */

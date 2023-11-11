@@ -1,5 +1,5 @@
 import type { val__be_computed_pair_T } from '@ctx-core/nanostores'
-import type { etsy_listing_image_T } from '../_types'
+import type { etsy_listing_image_T } from '../_types/index.js'
 export declare const [
 	s3__etsy_listing_image_a$_,
 	s3__etsy_listing_image_a_,

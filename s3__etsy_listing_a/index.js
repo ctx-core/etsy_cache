@@ -3,8 +3,7 @@ import { fetch } from '@ctx-core/fetch-undici'
 import { nullish__none_ } from '@ctx-core/function'
 import { val__be_computed_pair_ } from '@ctx-core/nanostores'
 import { etsy_listing_o_ } from '../etsy_listing_o/index.js'
-import { s3__etsy_listing_a__fetch_get } from '../s3__etsy_listing_a/index.js'
-/** @typedef {import('../_types').etsy_listing_T}etsy_listing_T */
+/** @typedef {import('../_types/index.d.ts').etsy_listing_T}etsy_listing_T */
 export const [
 	s3__etsy_listing_a$_,
 	s3__etsy_listing_a_,

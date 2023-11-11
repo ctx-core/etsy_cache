@@ -1,5 +1,4 @@
-import type { Response } from '@ctx-core/fetch-undici'
-import type { etsy_listing_T, etsy_payload_T } from '../_types'
+import type { etsy_listing_T, etsy_payload_T } from '../_types/index.js'
 export declare function etsy_listing_a__new():Promise<etsy_listing_T[]>
 export { etsy_listing_a__new as _etsy_listing_a1, }
 export declare function etsy_listing_a__fetch_get(

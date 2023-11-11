@@ -1,8 +1,7 @@
 import { import_meta_env_ } from '@ctx-core/env'
 import { fetch } from '@ctx-core/fetch-undici'
-import { etsy_listing_a__fetch_get } from '../etsy_listing_a/index.js'
 /**
- * @returns {Promise<import('../_types').etsy_listing_T[]>}
+ * @returns {Promise<import('../_types/index.js').etsy_listing_T[]>}
  */
 export async function etsy_listing_a__new() {
 	return etsy_listing_a__fetch_get().then(response=>
