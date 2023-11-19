@@ -1,8 +1,8 @@
 import { import_meta_env_ } from '@ctx-core/env'
 import { fetch } from '@ctx-core/fetch-undici'
-/** @typedef {typeof import('./index.d.ts').etsy_listing_image_a__fetch_get}etsy_listing_image_a__fetch_get */
-/** @typedef {import('../_types/index.d.ts').etsy_listing_image_T}etsy_listing_image_T */
-/** @typedef {import('../_types/index.d.ts').etsy_listing_T}etsy_listing_T */
+/** @typedef {typeof import('./index.d.ts').etsy_listing_image_a__fetch_get} */
+/** @typedef {import('../_types/index.d.ts').etsy_listing_image_T} */
+/** @typedef {import('../_types/index.d.ts').etsy_listing_T} */
 /**
  * @param {etsy_listing_T[]} etsy_listing_a
  * @returns {Promise<etsy_listing_image_T[]>}
@@ -26,7 +26,7 @@ export async function etsy_listing_image_a__new(etsy_listing_a) {
 			response
 		] = await etsy_listing_image_a__fetch_get(listing_id)
 		if (response.headers.get('content-type') == 'application/json') {
-			/** @type {{ results: etsy_listing_image_T[] }} */
+			/** @type {{ results: etsy_listing_image_T[] } */
 			return etsy_listing_images.results[0]
 		} else {
 			console.warn(`listing_id ${listing_id} failed`, response.headers)

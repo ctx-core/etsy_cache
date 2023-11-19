@@ -1,9 +1,9 @@
 import { has_dom } from '@ctx-core/dom'
 import { atom_, be_atom_triple_ } from '@ctx-core/nanostores'
 import { s3__etsy_listing_image_a__new } from '../s3__etsy_listing_image_a/index.js'
-/** @typedef {import('@ctx-core/object').be_atom_triple_T}be_atom_triple_T */
-/** @typedef {import('@ctx-core/object').Ctx}Ctx */
-/** @typedef {import('../_types/index.d.ts').etsy_listing_image_T}etsy_listing_image_T */
+/** @typedef {import('@ctx-core/object').be_atom_triple_T} */
+/** @typedef {import('@ctx-core/object').Ctx} */
+/** @typedef {import('../_types/index.d.ts').etsy_listing_image_T} */
 export const [
 	loading__s3__etsy_listing_image_a$_,
 	loading__s3__etsy_listing_image_a_,
