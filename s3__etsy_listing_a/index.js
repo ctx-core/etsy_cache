@@ -2,16 +2,16 @@ import { import_meta_env_ } from '@ctx-core/env'
 import { fetch } from '@ctx-core/fetch-undici'
 import { nullish__none_ } from '@ctx-core/function'
 import { be_computed_pair_ } from '@ctx-core/nanostores'
-import { etsy_listing_o_ } from '../etsy_listing_o/index.js'
+import { etsy_listing_o$_ } from '../etsy_listing_o/index.js'
 /** @typedef {import('../_types/index.d.ts').etsy_listing_T} */
 export const [
 	s3__etsy_listing_a$_,
 	s3__etsy_listing_a_,
-] = be_computed_pair_(ctx=>
-	nullish__none_([etsy_listing_o_(ctx)],
-		etsy_listing_o=>
-			etsy_listing_o.s3__etsy_listing_a))
-	.config({ id: 's3__etsy_listing_a' })
+] = be_computed_pair_(ctx=>etsy_listing_o$_(ctx),
+	etsy_listing_o=>
+		nullish__none_([etsy_listing_o], ()=>
+			etsy_listing_o.s3__etsy_listing_a),
+	{ id: 's3__etsy_listing_a' })
 export {
 	s3__etsy_listing_a$_ as s3__etsy_listing_a__,
 	s3__etsy_listing_a$_ as s3_etsy_listing_a__,

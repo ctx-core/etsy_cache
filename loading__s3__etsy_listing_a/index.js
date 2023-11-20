@@ -8,8 +8,8 @@ export const [
 	loading__s3__etsy_listing_a_,
 	loading__s3__etsy_listing_a__set,
 ] = /** @type {be_atom_triple_T<etsy_listing_T>} */be_atom_triple_(()=>
-	undefined)
-	.config({ id: 'loading__s3__etsy_listing_a' })
+	undefined,
+{ id: 'loading__s3__etsy_listing_a' })
 export {
 	loading__s3__etsy_listing_a$_ as loading__s3__etsy_listing_a__,
 	loading__s3__etsy_listing_a$_ as loading_s3_etsy_listing_a__,
