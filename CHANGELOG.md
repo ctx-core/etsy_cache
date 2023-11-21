@@ -1,5 +1,16 @@
 # @ctx-core/etsy_cache
 
+## 16.1.36
+
+### Patch Changes
+
+- @ctx-core/nanostores: ^9.0.4 -> ^9.0.5
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/fetch-undici@3.1.34
+  - @ctx-core/env@17.4.23
+
 ## 16.1.35
 
 ### Patch Changes
