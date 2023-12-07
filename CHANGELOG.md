@@ -1,5 +1,11 @@
 # @ctx-core/etsy_cache
 
+## 16.1.82
+
+### Patch Changes
+
+- @aws-sdk/types: ^3.465.0 -> ^3.468.0
+
 ## 16.1.81
 
 ### Patch Changes
