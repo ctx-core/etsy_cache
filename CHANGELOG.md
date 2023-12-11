@@ -1,5 +1,27 @@
 # @ctx-core/etsy_cache
 
+## 16.1.100
+
+### Patch Changes
+
+- @ctx-core/function: ^21.23.5 -> ^21.23.6
+- @ctx-core/sleep: ^8.2.44 -> ^8.2.45
+- @ctx-core/object: ^31.1.25 -> ^31.1.26
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/dom@15.1.48
+  - @ctx-core/env@17.4.49
+  - @ctx-core/nanostores@9.0.31
+  - @ctx-core/fetch-undici@3.1.86
+
 ## 16.1.99
 
 ### Patch Changes
