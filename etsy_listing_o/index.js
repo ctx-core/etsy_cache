@@ -1,8 +1,8 @@
-import { nullish__none_ } from '@ctx-core/function'
+/// <reference types="./index.d.ts" />
 import { be_computed_pair_ } from '@ctx-core/nanostores'
+import { nullish__none_ } from 'ctx-core/function'
 import { loading__s3__etsy_listing_a$_ } from '../loading__s3__etsy_listing_a/index.js'
 import { loading__s3__etsy_listing_image_a$_ } from '../loading__s3__etsy_listing_image_a/index.js'
-/** @type {typeof import('./index.d.ts').etsy_listing_o__} */
 export const [
 	etsy_listing_o$_,
 	etsy_listing_o_,

@@ -1,4 +1,4 @@
-import { sleep } from '@ctx-core/sleep'
+import { sleep } from 'ctx-core/sleep'
 import { etsy_cache__listing_a__put } from '../etsy_cache__listing_a/index.js'
 import { etsy_cache__listing_image_a__put } from '../etsy_cache__listing_image_a/index.js'
 import { etsy_listing_a__new } from '../etsy_listing_a/index.js'

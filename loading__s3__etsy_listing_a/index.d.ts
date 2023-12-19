@@ -1,5 +1,5 @@
 import type { be_atom_triple_T } from '@ctx-core/nanostores'
-import type { Ctx } from '@ctx-core/object'
+import type { Ctx } from 'ctx-core/be'
 import type { etsy_listing_T } from '../_types/index.js'
 export declare const [
 	loading__s3__etsy_listing_a$_,

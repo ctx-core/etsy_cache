@@ -1,9 +1,10 @@
+/// <reference types="../types/index.d.ts" />
+/// <reference types="./index.d.ts" />
 import { import_meta_env_ } from '@ctx-core/env'
 import { fetch } from '@ctx-core/fetch-undici'
-import { nullish__none_ } from '@ctx-core/function'
 import { be_computed_pair_ } from '@ctx-core/nanostores'
+import { nullish__none_ } from 'ctx-core/function'
 import { etsy_listing_o$_ } from '../etsy_listing_o/index.js'
-/** @typedef {import('../_types/index.d.ts').etsy_listing_T} */
 export const [
 	s3__etsy_listing_a$_,
 	s3__etsy_listing_a_,
@@ -18,7 +19,7 @@ export {
 	s3__etsy_listing_a$_ as s3_etsy_listing_a$_,
 }
 /**
- * @param {import('./index.d.ts')}[params]
+ * @param {s3__etsy_listing_a__fetch_get__params_T}[params]
  * @returns {Promise<etsy_listing_T[]>}
  */
 export async function s3__etsy_listing_a__new(params = {}) {
@@ -28,7 +29,7 @@ export async function s3__etsy_listing_a__new(params = {}) {
 export {
 	s3__etsy_listing_a__new as _s3_etsy_listing_a,
 }
-/** @type {typeof import('./index.d.ts').s3__etsy_listing_a__fetch_get} */
+/** @type {typeof s3__etsy_listing_a__fetch_get} */
 export const s3__etsy_listing_a__fetch_get = async (params = {})=>{
 	const { S3_BUCKET = import_meta_env_().S3_BUCKET } = params
 	const {

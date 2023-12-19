@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/etsy_cache",
-	"version": "16.1.126",
+	"version": "16.1.127",
 	"description": "cache data for an etsy account",
 	"author": "Brian Takita",
 	"homepage": "https://github.com/ctx-core/etsy_cache#readme",
@@ -44,11 +44,9 @@
 		"@ctx-core/dom": "^15.1.59",
 		"@ctx-core/env": "^17.4.60",
 		"@ctx-core/etsy": "^3.0.19",
-		"@ctx-core/fetch-undici": "^3.1.106",
-		"@ctx-core/function": "^21.24.9",
+		"@ctx-core/fetch-undici": "^3.1.107",
 		"@ctx-core/nanostores": "^10.0.3",
-		"@ctx-core/object": "^31.1.36",
-		"@ctx-core/sleep": "^8.2.55"
+		"ctx-core": "^5.1.0"
 	},
 	"devDependencies": {
 		"@aws-sdk/node-config-provider": "^3.374.0",
