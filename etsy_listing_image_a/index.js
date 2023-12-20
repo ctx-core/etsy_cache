@@ -1,8 +1,10 @@
-import { import_meta_env_ } from '@ctx-core/env'
+/// <reference types="../_types/index.d.ts" />
+/// <reference types="./index.d.ts" />
 import { fetch } from '@ctx-core/fetch-undici'
-/** @typedef {typeof import('./index.d.ts').etsy_listing_image_a__fetch_get} */
-/** @typedef {import('../_types/index.d.ts').etsy_listing_image_T} */
-/** @typedef {import('../_types/index.d.ts').etsy_listing_T} */
+import { import_meta_env_ } from 'ctx-core/env'
+/** @typedef {typeof etsy_listing_image_a__fetch_get} */
+/** @typedef {etsy_listing_image_T} */
+/** @typedef {etsy_listing_T} */
 /**
  * @param {etsy_listing_T[]} etsy_listing_a
  * @returns {Promise<etsy_listing_image_T[]>}

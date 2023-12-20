@@ -1,9 +1,9 @@
-import type { be_computed_pair_T } from '@ctx-core/nanostores'
+import type { be_memo_pair_T } from 'ctx-core/rmemo'
 import type { etsy_listing_T } from '../_types/index.js'
 export declare const [
 	s3__etsy_listing_a$_,
 	s3__etsy_listing_a_,
-]:be_computed_pair_T<etsy_listing_T[]|undefined>
+]:be_memo_pair_T<etsy_listing_T[]|undefined>
 export {
 	s3__etsy_listing_a$_ as s3__etsy_listing_a__,
 	s3__etsy_listing_a$_ as s3_etsy_listing_a__,

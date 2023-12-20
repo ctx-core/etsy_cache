@@ -1,15 +1,15 @@
 /// <reference types="ctx-core" />
 /// <reference types="../types/index.d.ts" />
-import { be_atom_triple_ } from '@ctx-core/nanostores'
+import { be_sig_triple_ } from 'ctx-core/rmemo'
 import { s3__etsy_listing_a__new } from '../s3__etsy_listing_a/index.js'
-/** @typedef {be_atom_triple_T} */
+/** @typedef {be_sig_triple_T} */
 /** @typedef {Ctx} */
 /** @typedef {etsy_listing_T} */
 export const [
 	loading__s3__etsy_listing_a$_,
 	loading__s3__etsy_listing_a_,
 	loading__s3__etsy_listing_a__set,
-] = /** @type {be_atom_triple_T<etsy_listing_T>} */be_atom_triple_(()=>
+] = /** @type {be_sig_triple_T<etsy_listing_T>} */be_sig_triple_(()=>
 	undefined,
 { id: 'loading__s3__etsy_listing_a' })
 export {

@@ -1,8 +1,10 @@
+/// <reference types="../_types/index.d.ts" />
+/// <reference types="./index.d.ts" />
 import { PutObjectCommand, S3Client } from '@aws-sdk/client-s3'
-import { import_meta_env_ } from '@ctx-core/env'
+import { import_meta_env_ } from 'ctx-core/env'
 /**
- * @param {import('../_types/index.js').etsy_listing_image_T[]} etsy_listing_image_a
- * @param {import('./index.d.ts').put_etsy_listing_images_a_params_T} [params]
+ * @param {etsy_listing_image_T[]} etsy_listing_image_a
+ * @param {put_etsy_listing_images_a_params_T} [params]
  * @returns {import('@aws-sdk/client-s3').ServiceOutputTypes}
  */
 export async function etsy_cache__listing_image_a__put(
@@ -12,8 +14,7 @@ export async function etsy_cache__listing_image_a__put(
 	const {
 		region = 'us-east-1',
 		Bucket = import_meta_env_().S3_BUCKET,
-		ETSY_LISTING_IMAGE_A_KEY =
-			import_meta_env_().ETSY_LISTING_IMAGE_A_KEY,
+		ETSY_LISTING_IMAGE_A_KEY = import_meta_env_().ETSY_LISTING_IMAGE_A_KEY,
 	} = params
 	const s3 = new S3Client({
 		region
