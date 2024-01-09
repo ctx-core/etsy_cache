@@ -10,7 +10,10 @@ export const [
 		nullish__none_([
 			loading__s3__etsy_listing_a_(ctx),
 			loading__s3__etsy_listing_image_a_(ctx)
-		], (loading__s3__etsy_listing_a, loading__s3__etsy_listing_image_a)=>({
+		], (
+			loading__s3__etsy_listing_a,
+			loading__s3__etsy_listing_image_a
+		)=>({
 			loading__s3__etsy_listing_a,
 			loading__s3__etsy_listing_image_a
 		})), { id: 'etsy_listing_o' })
