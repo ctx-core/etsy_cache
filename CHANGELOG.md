@@ -1,5 +1,14 @@
 # @ctx-core/etsy_cache
 
+## 16.1.221
+
+### Patch Changes
+
+- patch:
+
+      - ∋ @ctx-core/dom
+      optimize imports
+
 ## 16.1.220
 
 ### Patch Changes
