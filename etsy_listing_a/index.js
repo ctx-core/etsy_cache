@@ -1,5 +1,5 @@
-import { fetch } from '@ctx-core/fetch-undici'
 import { import_meta_env_ } from 'ctx-core/env'
+import { fetch } from 'ctx-core/fetch'
 /**
  * @returns {Promise<import('../_types/index.js').etsy_listing_T[]>}
  */

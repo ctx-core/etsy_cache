@@ -1,7 +1,7 @@
 /// <reference types="../_types/index.d.ts" />
 /// <reference types="./index.d.ts" />
-import { fetch } from '@ctx-core/fetch-undici'
 import { import_meta_env_ } from 'ctx-core/env'
+import { fetch } from 'ctx-core/fetch'
 /** @typedef {typeof etsy_listing_image_a__fetch_get} */
 /** @typedef {etsy_listing_image_T} */
 /** @typedef {etsy_listing_T} */

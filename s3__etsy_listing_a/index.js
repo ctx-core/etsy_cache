@@ -1,7 +1,7 @@
 /// <reference types="../types/index.d.ts" />
 /// <reference types="./index.d.ts" />
-import { fetch } from '@ctx-core/fetch-undici'
 import { import_meta_env_ } from 'ctx-core/env'
+import { fetch } from 'ctx-core/fetch'
 import { be_memo_pair_, nullish__none_ } from 'ctx-core/rmemo'
 import { etsy_listing_o_ } from '../etsy_listing_o/index.js'
 export const [
