@@ -4,7 +4,7 @@ import { is_browser_ } from 'ctx-core/env'
 import { be_sig_triple_ } from 'ctx-core/rmemo'
 import { s3__etsy_listing_image_a__new } from '../s3__etsy_listing_image_a/index.js'
 /** @typedef {be_sig_triple_T} */
-/** @typedef {Ctx} */
+/** @typedef {ctx_T} */
 /** @typedef {etsy_listing_image_T} */
 export const [
 	loading__s3__etsy_listing_image_a$_,
@@ -26,7 +26,7 @@ export {
 	loading__s3__etsy_listing_image_a$_ as loading_s3_etsy_listing_image_a$_,
 }
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  * @returns {Promise<void>}
  */
 export async function loading__s3__etsy_listing_image_a__reload(ctx
