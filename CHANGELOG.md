@@ -1,5 +1,11 @@
 # @ctx-core/etsy_cache
 
+## 16.1.234
+
+### Patch Changes
+
+- ctx-core: ^6.1.0 -> ^6.1.1
+
 ## 16.1.233
 
 ### Patch Changes
