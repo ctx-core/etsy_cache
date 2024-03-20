@@ -1,5 +1,13 @@
 # @ctx-core/etsy_cache
 
+## 16.1.264
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+
 ## 16.1.263
 
 ### Patch Changes
