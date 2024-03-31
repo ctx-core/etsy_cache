@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/etsy_cache",
-	"version": "16.1.268",
+	"version": "16.1.269",
 	"description": "cache data for an etsy account",
 	"author": {
 		"name": "Brian Takita",
@@ -47,7 +47,7 @@
 	"dependencies": {
 		"@aws-sdk/client-s3": "^3.540.0",
 		"@ctx-core/etsy": "^3.0.19",
-		"ctx-core": "^6.7.1"
+		"ctx-core": "^6.8.0"
 	},
 	"devDependencies": {
 		"@aws-sdk/node-config-provider": "^3.374.0",
