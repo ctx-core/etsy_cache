@@ -52,7 +52,7 @@
 	"devDependencies": {
 		"@aws-sdk/node-config-provider": "^3.374.0",
 		"@aws-sdk/types": "^3.577.0",
-		"c8": "^10.0.0",
+		"c8": "^10.1.0",
 		"check-dts": "^0.8.0",
 		"tsx": "^4.15.2",
 		"typescript": "next",
